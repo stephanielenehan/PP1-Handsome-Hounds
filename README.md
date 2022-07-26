@@ -19,6 +19,8 @@ color scheme: https://visme.co/blog/website-color-schemes/  no.3 Natural and Ear
 ## credits 
 ### imagery 
 - Animal being trimmed: https://pxhere.com/en/photo/678977
+- Dog Paw Nails : https://pxhere.com/en/photo/847302
+- Pomeranian : https://pxhere.com/en/photo/802177
 
 ### content
 - Reasons to get your dog groomed. Source for text from: https://milliespetservices.co.uk/reasons-groom-your-dog/

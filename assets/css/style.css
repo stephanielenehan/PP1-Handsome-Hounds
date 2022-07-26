@@ -32,18 +32,18 @@ html {
   }
   
   .nav-item {
-      background: #625b60;
+      background: #659DBD;
       text-transform: uppercase;
       letter-spacing: 4px;
   }
   
   .nav-item li a {
-      color: #fff;
+      color: white;
   }
   
   .nav-item li a:hover {
-      background: #6d6268;
-      color: lightskyblue;
+      background: #FBEEC1;
+      color: #8D8741;
   }
   
   .menu #logo a {  
@@ -54,7 +54,7 @@ html {
   }
   
   .menu #logo a:hover {
-      color: lightskyblue;
+      color: black;
   }  
   
   #menuToggle,
