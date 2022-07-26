@@ -9,23 +9,45 @@
     
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Handsome Hounds</title>
+   
 </head>
 <body>
     <header id="home">
-    <h1>Handsome Hounds</h1>  <!--Handsome Hounds is copyright for a shop in Portarlington, Co. Laois, Ireland-->
+
+        <nav id="nav">
+            <!-- hidden checkbox is used as click reciever, so you can use the :checked selector on it. -->
+            <input type="checkbox" name="menuToggle" id="menuToggle">
+            <label for="menuToggle">
+              <div class="toggle"> <a class="show-mobile " href="#header">Logo Site Name</a> ☰</div>
+            </label>
+            <!--the menu that will slide in from the left-->
+            <ul id="menu" class="menu nav-item">
+              <li id="logo" class="hide-mobile"><a href="#header">Handsome Hounds</a></li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#photos">Photos</a></li>
+              <li><a href="#opening-times">Opening Times</a></li>
+              <li><a href="#enquiry">Make an Enquiry</a></li>
+            </ul>
+        </nav>
+
+     
+        
+    <h1 id="home">Handsome Hounds</h1><img src="assets/images/dog-grooming.jpg" width="100%">  <!--Handsome Hounds is copyright for a shop in Portarlington, Co. Laois, Ireland-->
     <p>A custom cut from Nose to Butt!</p> <!--Tag line is copyright to Muttzforcutz.ie-->
     </header>
-    
-    <nav>
-    <a href="#home" aria-label="Go to the top of the page">Home</a>
-    <a href="#photos" aria-label="Go to photo gallery section">Photos</a>
-    <a href="#opening times" aria-label="Go the the opening times section">Opening Times</a>
-    <a href="form.html" aria-label="Send us your dog's details and we will send you a quote">Make an Enquiry</a>
-    </nav>
 
+    <hr>
+    
+   
     <section>
-        <div>
+        <div id="photos">
             <h2>See Our Photos</h2>
+            <img src="assets/images/" alt="small dog being groomed" width="400">
+            <img src="assets/images/" alt="small dog being groomed" width="400">
+            <img src="assets/images/" alt="small dog being groomed" width="400">
+            <img src="assets/images/" alt="small dog being groomed" width="400">
+            <img src="assets/images/" alt="small dog being groomed" width="400">
+            <img src="assets/images/" alt="small dog being groomed" width="400">
         </div>
     </section>
     
@@ -53,9 +75,9 @@
     
     <footer><!--Add the rest of the code to make functional links-->
         <span>Find us on:</span>
-        <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Find us on Instagram (link opens in new tab"
-        <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Find us on Facebook (link opens in a new tab)"></a>
-        <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Find us on Twitter (link opens in a new tab)"Twitter</a>
+        <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Find us on Instagram (link opens in new tab">Instagram</a>
+        <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Find us on Facebook (link opens in a new tab)">Facebook</a>
+        <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Find us on Twitter (link opens in a new tab)">Twitter</a>
 
             <p>Copyright as per README.md fictional or attributed</p>
     </footer>
