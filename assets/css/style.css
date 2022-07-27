@@ -137,3 +137,5 @@ html {
     color: white;
     background: #21336b;
   }
+
+  form {margin: top 2rem;}
