@@ -18,9 +18,15 @@ color scheme: https://visme.co/blog/website-color-schemes/  no.3 Natural and Ear
 
 ## credits 
 ### imagery 
-- Animal being trimmed: https://pxhere.com/en/photo/678977
-- Dog Paw Nails : https://pxhere.com/en/photo/847302
-- Pomeranian : https://pxhere.com/en/photo/802177
+- shih-tzu : https://pxhere.com/en/photo/678977
+- pomeranian : https://pxhere.com/en/photo/802177
+- large Dog undercoat removal : https://pxhere.com/en/photo/678974
+- black labrador with red bandana : https://pxhere.com/en/photo/807386
+- 3 puppies being washed : https://pxhere.com/en/photo/1055567
+- 2-pugs-two-tone-and-black : https://pxhere.com/en/photo/1354939
+- dog paw nails : https://pxhere.com/en/photo/847302
+
+
 
 ### content
 - Reasons to get your dog groomed. Source for text from: https://milliespetservices.co.uk/reasons-groom-your-dog/
