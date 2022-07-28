@@ -19,12 +19,18 @@ This website was originally to be a cinema website but I decided that I might us
 
 ## Navigation
 ![image](https://user-images.githubusercontent.com/35435182/181650552-5b2ce4b6-c888-438d-94a3-25f8394bad95.png)
-- Navigation bar consists of tabs for Home, Photos, Reasons to get your dog groomed, opening times, make an enquiry and social media
-- Each tab on the navigation bar of the index.html page functions with an internal link to bring the user to the relevant place on the page. 
-- Each tab on the navigation bar of the 404.html page functions with an internal link to bring the user back to the landing page and to the relevant section in one click. 
+ - Navigation bar consists of tabs for Home, Photos, Reasons to get your dog groomed, Opening Times, Make an Enquiry and Social Media
+ - Each tab on the navigation bar of the index.html page functions with an internal link to bring the user to the relevant place on the page. 
+ - Each tab on the navigation bar of the 404.html page functions with an internal link to bring the user back to the landing page and to the relevant section in one click. 
 
 ## Imagery 
 ![image](https://user-images.githubusercontent.com/35435182/181652289-d0bb73bf-a092-4ba4-a083-a4f8b728ab37.png)
+![image](https://user-images.githubusercontent.com/35435182/181652566-88d33f38-e281-4a14-aba7-0ab2fb30a43e.png)
+ - The imagery chosen reflects the variety of sizes and types of dog breeds catered for along with the variery of services offered (washing, cutting, brushing, nails). 
+ - The imagery chosen shows happy healthy animal exhibiting positive results for both dogs and owners. 
+
+## Styles
+![image](https://user-images.githubusercontent.com/35435182/181653387-e923c718-b24e-42b0-8916-350145088406.png)
 
 
 # Testing
