@@ -13,20 +13,23 @@
 </head>
 <body>
     <header id="home">
+        <h1>Handsome Hounds</h1>
 
         <nav id="nav">
             <!-- hidden checkbox is used as click reciever, so you can use the :checked selector on it. -->
             <input type="checkbox" name="menuToggle" id="menuToggle">
             <label for="menuToggle">
               <div class="toggle"> <a class="show-mobile " href="#header">HANDSOME HOUNDS</a> ☰</div>
-            </label>
+            </label> 
             <!--the menu that will slide in from the left-->
             <ul id="menu" class="menu nav-item">
-              <li id="logo" class="hide-mobile"><a href="#header">Handsome Hounds</a></li>
+              <!--<li id="logo" class="hide-mobile"><a href="#header">Handsome Hounds</a></li>-->
               <li><a href="#home">Home</a></li>
               <li><a href="#photos">Photos</a></li>
+              <li><a href="#reasons">Reasons to get your dog groomed</a></li>
               <li><a href="#opening-times">Opening Times</a></li>
               <li><a href="#enquiry">Make an Enquiry</a></li>
+              <li><a href="#social-media">Social Media</a></li>
             </ul>
         </nav>
 
@@ -52,7 +55,7 @@
     </section>
     
     <section>
-        <div>
+        <div id="reasons">
             <h2>Reasons to get your dog groomed</h2>
             <ul>
                 <li>Improve Appearance and Smell</li>
@@ -62,9 +65,17 @@
             </ul>
         </div>
     </section>
+    
+    <section>
+        <div id="opening-times">
+            <h2>Opening Times</h2>
+        </div>
+    </section>
+
+
 
     <section>
-        <div>
+        <div id="enquiry">
             <h2>Make an Enquiry</h2><!--Enquiry form-->
             <p>Give us your email address or phone number and we will contact you to prepare a quote</p>
             <form method="post" action="https://formdump.codeinstitute.net">
@@ -81,11 +92,13 @@
             
         </div>
     </section>
+              
     
     
     
     
-    <footer><!--Add the rest of the code to make functional links-->
+    
+    <footer id="social-media">
         <span>Find us on:</span>
         <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Find us on Instagram (link opens in new tab">Instagram</a>
         <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Find us on Facebook (link opens in a new tab)">Facebook</a>
