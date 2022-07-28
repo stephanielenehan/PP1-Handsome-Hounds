@@ -6,6 +6,24 @@ This is my website for a dog groomers which displays contact information, reason
 
 This website was originally to be a cinema website but I decided that I might use that idea for a later project. I was advised best not to change the name of the workspace and to simply continue on. 
 
+# Wireframes
+![image](https://user-images.githubusercontent.com/35435182/181641306-c0a254e0-d948-442f-ac51-10eda194bc54.png)
+
+# Features
+## Navigation
+add screenshot and 2 bullet points as to why this is important.
+
+
+# Testing
+## CSS Validation
+screenshot
+## HTML Validation
+screenshot
+## Accessibility
+screenshot
+## Manual Testing
+write out feature and say how you checked it. 
+ - how I tested it in bullet points 
 
 
 
