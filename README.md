@@ -1,8 +1,14 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Handsome Hounds
+
+![image](https://user-images.githubusercontent.com/35435182/181649092-9aa616ce-00f7-4837-aada-b11bdcd449cc.png)
+![image](https://user-images.githubusercontent.com/35435182/181649176-d232a352-23bf-4326-81ab-a07a7b8c4620.png)
+
+https://stephanielenehan.github.io/love-cinema/
+
+# Author: DEVELOPER_stephanielenehan
 
 # Welcome to Handsome Hounds!
-
-This is my website for a dog groomers which displays contact information, reasons to get your dog groomed, opening times, a gallery of photos, an enquiry & quote request form and social media links.  
+This is my website offering dog grooming which displays a welcome landing page, a gallery of photos of assorted dog breeds either freshly groomed or being groomed, an information panel of reasons to get your dog groomed, opening time and contact information, an enquiry & quote request form, and social media links. A 404 error page is also made to match the main web page and direct users back to the main page.  
 
 This website was originally to be a cinema website but I decided that I might use that idea for a later project. I was advised best not to change the name of the workspace and to simply continue on. 
 
@@ -10,9 +16,11 @@ This website was originally to be a cinema website but I decided that I might us
 ![image](https://user-images.githubusercontent.com/35435182/181641306-c0a254e0-d948-442f-ac51-10eda194bc54.png)
 
 # Features
-## Navigation
-add screenshot and 2 bullet points as to why this is important.
 
+## Navigation
+![image](https://user-images.githubusercontent.com/35435182/181650552-5b2ce4b6-c888-438d-94a3-25f8394bad95.png)
+
+add screenshot and 2 bullet points as to why this is important.
 
 # Testing
 ## CSS Validation
@@ -54,13 +62,5 @@ color scheme: https://visme.co/blog/website-color-schemes/  no.3 Natural and Ear
 ### styles
 - Responsive Navigation based on Malia Havlicek's codepen: https://codepen.io/maliahavlicek/pen/LYeBwNY
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
 
