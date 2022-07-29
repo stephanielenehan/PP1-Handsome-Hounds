@@ -36,14 +36,34 @@ This website was originally to be a cinema website but I decided that I might us
  - The image used in the header is of a small shih Tzu being groomed. The image is a happy vibrant dog enjoying being groomed to demonstrate the overall aim and ethos of the website and reflects the alternative description of a : small Shih Tzu dog being groomed. 
  - The header contains a tag line under the main image to reinforce the mission of the website to provide grooming services for everything a dog needs: A customs cut from nose to butt. 
 
-
-
 ## Navigation
 ![image](https://user-images.githubusercontent.com/35435182/181650552-5b2ce4b6-c888-438d-94a3-25f8394bad95.png)
  - Navigation bar consists of tabs for Home, Photos, Reasons to get your dog groomed, Opening Times, Make an Enquiry and Social Media
  - Each tab on the navigation bar of the index.html page functions with an internal link to bring the user to the relevant place on the page. 
  - Each tab on the navigation bar of the 404.html page functions with an internal link to bring the user back to the landing page and to the relevant section in one click. 
 
+## Body
+- The body consists of 4 sections that each represent a user end point for provision of information or further action.
+
+## Section : Photos
+ - The photos section is comprised of 6 images : 
+![image](https://user-images.githubusercontent.com/35435182/181691854-0de6b01d-e25a-4e87-a9dc-c25ed1675064.png)
+   - small Pomeranian dog freshly groomed
+ 
+![image](https://user-images.githubusercontent.com/35435182/181691935-52b70db5-f6a8-4edb-96cc-c75e6f6709ae.png)
+   - large dog having undercoat groomed out
+
+![image](https://user-images.githubusercontent.com/35435182/181692030-7ef24247-4bca-4802-aaa1-3ee7e6258157.png)
+   - freshly washed and dried black Labrador dog wearing red bandana around neck
+   
+![image](https://user-images.githubusercontent.com/35435182/181692091-42a39e39-6f3a-4492-b1eb-001d3735ca5a.png)
+   - Three eight week old puppies being washed together in a large sink
+   
+![image](https://user-images.githubusercontent.com/35435182/181692199-26d22414-2fb5-4d30-9b68-2fce417085cf.png)
+   - Two small pugs dogs,fresjly groomed, one black and fawn, one all black
+   
+![image](https://user-images.githubusercontent.com/35435182/181692328-c5b73942-f983-461d-9537-efefaf8cebf6.png)
+  - single dog paw showing freshly cut nails
 
  ## Footer: 
   - The footer contains Social media links Instagram, Facebook and Twitter follow the template of Coders Coffeehouse.
