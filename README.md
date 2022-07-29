@@ -76,7 +76,10 @@ This website was originally to be a cinema website but I decided that I might us
 ![image](https://user-images.githubusercontent.com/35435182/181694164-303cd671-81e4-4560-bb82-b0c14fcd5df2.png)
 
 ## Section : Opening-Times - The opening times section shows the basic information one would need if they chose to contact or attend the dog grooming salon. 
-  - Opening and closing day along with their corresponding times.
+ ![image](https://user-images.githubusercontent.com/35435182/181695439-69a4a992-5c3f-4a1a-9396-1e84337f0a54.png)
+
+ 
+ - Opening and closing day along with their corresponding times.
   - Phone number for the dog grooming salon. 
   - Email address for the dog grooming salon. 
   - Physical address for the location of the dog grooming salon. 
