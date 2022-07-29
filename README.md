@@ -101,10 +101,12 @@ This website was originally to be a cinema website but I decided that I might us
 
 ## Footer: - The footer contains :
 ![image](https://user-images.githubusercontent.com/35435182/181699496-dedad2c1-ce5e-426a-9cff-ea03dd22872c.png) 
- 
- - Social media links for Instagram, Facebook and Twitter that follow the template of Coders Coffeehouse.
-
- - Copyright shown as a referal to the README containing fictional and attributed sources. 
+  - Social media links for Instagram, Facebook and Twitter that follow the template of Coders Coffeehouse.
+![image](https://user-images.githubusercontent.com/35435182/181717825-51f6278c-9eb5-4ce2-a483-caff2975cda7.png)
+![image](https://user-images.githubusercontent.com/35435182/181717954-c7f51421-b37f-4308-9cff-54ac5adc5f12.png)
+![image](https://user-images.githubusercontent.com/35435182/181718374-eecf0b52-c938-45e6-98c2-8f66b96acc65.png)
+- Each social media link opens in a new page
+- Copyright shown as a referal to the README containing fictional and attributed sources. 
 
 
 # Testing
