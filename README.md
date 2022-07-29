@@ -65,7 +65,7 @@ This website was originally to be a cinema website but I decided that I might us
    
    
 ![image](https://user-images.githubusercontent.com/35435182/181692199-26d22414-2fb5-4d30-9b68-2fce417085cf.png)
-   - Two small pugs dogs,fresjly groomed, one black and fawn, one all black
+   - Two small pugs dogs,freshly groomed, one black and fawn, one all black
    
    
 ![image](https://user-images.githubusercontent.com/35435182/181692328-c5b73942-f983-461d-9537-efefaf8cebf6.png)
@@ -99,8 +99,12 @@ This website was originally to be a cinema website but I decided that I might us
 
 
 
-## Footer: 
-  - The footer contains Social media links Instagram, Facebook and Twitter follow the template of Coders Coffeehouse.
+## Footer: - The footer contains :
+![image](https://user-images.githubusercontent.com/35435182/181699496-dedad2c1-ce5e-426a-9cff-ea03dd22872c.png) 
+ 
+ - Social media links for Instagram, Facebook and Twitter that follow the template of Coders Coffeehouse.
+
+ - Copyright shown as a referal to the README containing fictional and attributed sources. 
 
 
 # Testing
