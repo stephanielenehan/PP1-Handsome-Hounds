@@ -133,9 +133,11 @@ write out feature and say how you checked it.
  - Social Media links open in a new tab with an aria-label to describe the link and advise that a new tab will open. 
 
 ## Responsiveness
+ - Site tested with https://ui.dev/amiresponsive?url=https://stephanielenehan.github.io/love-cinema/
+  ![image](https://user-images.githubusercontent.com/35435182/181722400-2b603cb3-60c4-42f8-9657-4cb21d362845.png)
  - The site is responsive on mobile, tablet and desktop. 
-### Mobile: 
--The nav bar collapses to show a hamburger menu with a drop down menu. 
+
+ 
 
 
 
