@@ -114,7 +114,7 @@ This website was originally to be a cinema website but I decided that I might us
 - style.css has been tested with CSS Validation https://jigsaw.w3.org/css-validator/validator and any error or warnings found corrected. 
 ![image](https://user-images.githubusercontent.com/35435182/181655143-5b4f4d27-0ccb-4f06-9cc4-1ddcd66b2c05.png)
  - CSS now validates without error. 
- - 
+ 
 ## HTML Validation
 ![image](https://user-images.githubusercontent.com/35435182/181655619-e73948d6-1d0a-4787-809e-f7e07a50e6db.png)
  - index.html has been tested  with HTML Validation https://validator.w3.org/nu/#textarea and any errors or warnings found corrected. 
@@ -123,18 +123,19 @@ This website was originally to be a cinema website but I decided that I might us
 
 ![image](https://user-images.githubusercontent.com/35435182/181656239-f8408d9b-310f-490a-8f73-6ff5cefa9921.png)
  - 404.html has been tested with HTML Validation https://validator.w3.org/nu/#textarea and validates without error. 
- - 
-## Accessibility
-screenshot
+ 
 ## Manual Testing
 write out feature and say how you checked it. 
  - how I tested it in bullet points 
 
+## Accessibility
+ - All images contain alt language to describe the images for screen readers. 
+ - Social Media links open in a new tab with an aria-label to describe the link and advise that a new tab will open. 
 
-
-
-
-
+## Responsiveness
+ - The site is responsive on mobile, tablet and desktop. 
+### Mobile: 
+-The nav bar collapses to show a hamburger menu with a drop down menu. 
 
 
 
