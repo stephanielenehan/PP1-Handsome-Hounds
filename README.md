@@ -4,6 +4,8 @@
 ![image](https://user-images.githubusercontent.com/35435182/181649176-d232a352-23bf-4326-81ab-a07a7b8c4620.png)
 
 https://stephanielenehan.github.io/love-cinema/
+
+
 https://github.com/stephanielenehan/love-cinema
 
 # Author: DEVELOPER_stephanielenehan
@@ -84,6 +86,16 @@ This website was originally to be a cinema website but I decided that I might us
   - Email address for the dog grooming salon. 
   - Physical address for the location of the dog grooming salon. 
 
+## Section : Enquiry  - The enquiry section comprises of a form the user has to complete and submit with either their email address or their phone number in order to receive a quote back. 
+![image](https://user-images.githubusercontent.com/35435182/181697960-e860b910-f1c4-4c97-a57a-442c347c18e2.png)
+
+![image](https://user-images.githubusercontent.com/35435182/181697845-346c676e-6d7a-41f2-8fb0-ba1c0915e4b6.png)
+
+   - The input area for the email address requires the correct format with an @ symbol and an appropriate message appears for the user beside the input area when this criteria is not met so as to indicate to the user to input the email address correctly. 
+
+![image](https://user-images.githubusercontent.com/35435182/181698908-3c60141f-62fc-49cf-a67c-6e00662f3b51.png)
+
+  - The input area for the phone number requires the correct format with numbers and an appropriate message appears for the user beside the input area when this criteria is not met so as to indicate to the user to input the phone number correctly. 
 
 
 
