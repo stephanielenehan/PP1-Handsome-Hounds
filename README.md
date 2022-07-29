@@ -45,27 +45,46 @@ This website was originally to be a cinema website but I decided that I might us
 ## Body
 - The body consists of 4 sections that each represent a user end point for provision of information or further action.
 
-## Section : Photos
- - The photos section is comprised of 6 images : 
+## Section : Photos  - The photos section is comprised of 6 images : 
 ![image](https://user-images.githubusercontent.com/35435182/181691854-0de6b01d-e25a-4e87-a9dc-c25ed1675064.png)
    - small Pomeranian dog freshly groomed
+ 
  
 ![image](https://user-images.githubusercontent.com/35435182/181691935-52b70db5-f6a8-4edb-96cc-c75e6f6709ae.png)
    - large dog having undercoat groomed out
 
+
 ![image](https://user-images.githubusercontent.com/35435182/181692030-7ef24247-4bca-4802-aaa1-3ee7e6258157.png)
    - freshly washed and dried black Labrador dog wearing red bandana around neck
+   
    
 ![image](https://user-images.githubusercontent.com/35435182/181692091-42a39e39-6f3a-4492-b1eb-001d3735ca5a.png)
    - Three eight week old puppies being washed together in a large sink
    
+   
 ![image](https://user-images.githubusercontent.com/35435182/181692199-26d22414-2fb5-4d30-9b68-2fce417085cf.png)
    - Two small pugs dogs,fresjly groomed, one black and fawn, one all black
+   
    
 ![image](https://user-images.githubusercontent.com/35435182/181692328-c5b73942-f983-461d-9537-efefaf8cebf6.png)
   - single dog paw showing freshly cut nails
 
- ## Footer: 
+## Section : Reasons  - The reason to get your dog groomed section is comprised of 5 statments that validate the reasons one might get their dog groomed
+![image](https://user-images.githubusercontent.com/35435182/181694059-3234c905-eb0b-432f-aafe-ae8b415df16c.png)
+
+  - Each reason links back to evidence shown in the afore mentioned photos section and is listed in the section right after the photos to reinforce this. 
+![image](https://user-images.githubusercontent.com/35435182/181694164-303cd671-81e4-4560-bb82-b0c14fcd5df2.png)
+
+## Section : Opening-Times - The opening times section shows the basic information one would need if they chose to contact or attend the dog grooming salon. 
+  - Opening and closing day along with their corresponding times.
+  - Phone number for the dog grooming salon. 
+  - Email address for the dog grooming salon. 
+  - Physical address for the location of the dog grooming salon. 
+
+
+
+
+## Footer: 
   - The footer contains Social media links Instagram, Facebook and Twitter follow the template of Coders Coffeehouse.
 
 
