@@ -29,15 +29,24 @@ This website was originally to be a cinema website but I decided that I might us
 
 # Features
 
+## Header 
+![image](https://user-images.githubusercontent.com/35435182/181688706-af07ee65-0be4-4cba-b97d-52b358b15844.png)
+ - The header contains the display page title for the name of the business Handsome Hounds. 
+ - The header contains navigation links as below detailed. 
+ - The image used in the header is of a small shih Tzu being groomed. The image is a happy vibrant dog enjoying being groomed to demonstrate the overall aim and ethos of the website and reflects the alternative description of a : small Shih Tzu dog being groomed. 
+ - The header contains a tag line under the main image to reinforce the mission of the website to provide grooming services for everything a dog needs: A customs cut from nose to butt. 
+
+
+
 ## Navigation
 ![image](https://user-images.githubusercontent.com/35435182/181650552-5b2ce4b6-c888-438d-94a3-25f8394bad95.png)
  - Navigation bar consists of tabs for Home, Photos, Reasons to get your dog groomed, Opening Times, Make an Enquiry and Social Media
  - Each tab on the navigation bar of the index.html page functions with an internal link to bring the user to the relevant place on the page. 
  - Each tab on the navigation bar of the 404.html page functions with an internal link to bring the user back to the landing page and to the relevant section in one click. 
 
-## Header
-insert screen shot of small Shih Tzu being groomed 
- - 
+
+ ## Footer: 
+  - The footer contains Social media links Instagram, Facebook and Twitter follow the template of Coders Coffeehouse.
 
 
 # Testing
@@ -66,9 +75,9 @@ write out feature and say how you checked it.
 
 
 
-footer: social media links Instagram, Facebook and Twitter follow the template of Coders Coffeehouse. Note to self select font. 
 
-color scheme: https://visme.co/blog/website-color-schemes/  no.3 Natural and Earthy #8D8741, #659DBD, #DAAD86, #BC986A, #FBEEC1. 
+
+
 
 ## credits 
 ### imagery 
@@ -80,8 +89,6 @@ color scheme: https://visme.co/blog/website-color-schemes/  no.3 Natural and Ear
 - 2-pugs-two-tone-and-black : https://pxhere.com/en/photo/1354939
 - dog paw nails : https://pxhere.com/en/photo/847302
 
-
-
 ### content
 - Reasons to get your dog groomed. Source for text from: https://milliespetservices.co.uk/reasons-groom-your-dog/
 - A custom cut from Nose to Butt! Source: Tag line is copyright to Muttzforcutz.ie
@@ -89,6 +96,7 @@ color scheme: https://visme.co/blog/website-color-schemes/  no.3 Natural and Ear
 
 ### styles
 - Responsive Navigation based on Malia Havlicek's codepen: https://codepen.io/maliahavlicek/pen/LYeBwNY
+- Color scheme from : https://visme.co/blog/website-color-schemes/  I have used no.3 Natural and Earthy #8D8741, #659DBD, #DAAD86, #BC986A, #FBEEC1. 
 
 
 
