@@ -4,7 +4,6 @@ body {
     background-color: #659DBD;
 }
 
-
 h1,
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -156,4 +155,11 @@ section {
 
 form {
     margin-top: 2rem;
+}
+
+.container-1 {
+    border-right: 20px red solid;
+    border-left: 20px red solid;
+    border-bottom: 20px red solid;
+    border-top: 20px red solid;
 }

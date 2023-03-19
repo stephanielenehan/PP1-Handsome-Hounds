@@ -128,6 +128,25 @@ This website was originally to be a cinema website but I decided that I might us
 write out feature and say how you checked it. 
  - how I tested it in bullet points 
 
+ A typical debugging process might look like the following:
+1.	A bug is identified either by a user or by a developer during testing/development.
+2.	The developer (if the bug was reported by a user) tries to reproduce the bug and verifies that it exists.
+3.	The developer starts at the moment of user input, first verifying that the input is received correctly.
+4.	The developer follows the code line by line, displaying output along the way until he or she identifies a problem in a function imported from an external library.
+5.	The developer Googles some information about the problem or visits the external library's documentation to verify he or she is using the function properly.
+6.	The developer identifies a mistake in the way they were utilizing the external library and makes the appropriate changes to the code.
+7.	The developer tests the same input again verifies the code is functioning correctly and the rest of the application has not been affected and then deploys the change.
+
+Some questions you should get in the habit of asking yourself are:
+1.	What did I expect to happen when the code was run?
+2.	Precisely what happened when the code was run?
+3.	Am I (or is the user) submitting the correct input?
+4.	Do all the variables in use in the code have the correct values?
+5.	Is the data I'm working with the correct data type?
+6.	Are there any functions changing or mutating the data, the input, or the output before the final step of the code?
+7.	What am I literally asking the computer to do, and is that actually what I want it to do?
+
+
 ## Accessibility
  - All images contain alt language to describe the images for screen readers. 
  - Social Media links open in a new tab with an aria-label to describe the link and advise that a new tab will open. 
