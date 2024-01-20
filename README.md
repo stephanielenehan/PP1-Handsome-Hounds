@@ -125,20 +125,19 @@ Getting started with your Portfolio Projects can be daunting, planning your proj
 
 # Handsome Hounds
 
-![image](https://user-images.githubusercontent.com/35435182/181649092-9aa616ce-00f7-4837-aada-b11bdcd449cc.png)
+![image](https://user-images.githubusercontent.com/35435182/181649092-9aa616ce-00f7-4837-aada-b11bdcd449cc.png) (consider naming convention of images e.g. landing page etc see notes in pasted template...i.e. ensure a clear file path)
 ![image](https://user-images.githubusercontent.com/35435182/181649176-d232a352-23bf-4326-81ab-a07a7b8c4620.png)
 
-https://stephanielenehan.github.io/love-cinema/
+https://stephanielenehan.github.io/love-cinema/ (update HERE)
 
 
-https://github.com/stephanielenehan/love-cinema
+https://github.com/stephanielenehan/love-cinema (update HERE)
 
 # Author: DEVELOPER_stephanielenehan
 
 # Welcome to Handsome Hounds!
 This is my website offering dog grooming which displays a welcome landing page, a gallery of photos of assorted dog breeds either freshly groomed or being groomed, an information panel of reasons to get your dog groomed, opening time and contact information, an enquiry & quote request form, and social media links. A 404 error page is also made to match the main web page and direct users back to the main page.  
 
-This website was originally to be a cinema website but I decided that I might use that idea for a later project. I was advised best not to change the name of the workspace and to simply continue on. 
 
 # Wireframes
 ![image](https://user-images.githubusercontent.com/35435182/181641306-c0a254e0-d948-442f-ac51-10eda194bc54.png)
