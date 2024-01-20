@@ -1,4 +1,4 @@
-body {
+/*body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 20px;
     background-color: #659DBD;
@@ -7,11 +7,11 @@ body {
 h1,
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+}*/
 
 /* If you want to use this code for your page, copy everything below this point and give attribution to: Responsive Navigation based on Malia Havlicek's codepen: https://codepen.io/maliahavlicek/pen/LYeBwNY */
 
-html {
+/*html {
     scroll-behavior: smooth;
 }
 
@@ -72,10 +72,10 @@ nav {
 .show-mobile,
 .toggle {
     display: none;
-}
+}*/
 
 /* phones and portrait tablets */
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
 
     a.show-mobile {
         text-decoration: none;
@@ -123,9 +123,9 @@ nav {
     }
 
     .menu li {
-        display: flex;
+        display: flex;*/
         /* magic */
-        align-self: center;
+        /*align-self: center;
         width: 100%;
         opacity: 0;
         visibility: hidden;
@@ -162,4 +162,4 @@ form {
     border-left: 20px red solid;
     border-bottom: 20px red solid;
     border-top: 20px red solid;
-}
+}*/
