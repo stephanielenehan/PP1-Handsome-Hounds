@@ -12,6 +12,43 @@ Responsice Mockup
 Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
+Favicon 
+That little picture or icon that appears on the brower tab. 
+
+According to favicon.io "Some alternative names for favicon are browser icon, favorite icon, shortcut icon, tab icon, URL icon, and bookmark icon. The word favicon is short for “favorite icon” and originates from Internet Explorer’s “Favorites” feature which most modern browsers call “bookmarks”."
+
+I have opted for the format of ICO versus PNG or SVG for several reasons:
+- The ICO file format was developed by Microsoft and is the original file format for the favicon. The format is unique because it allows for multiple small images within the same file. This is advantageous because the small icons required for a favicon in ICO format (16x16, 32x32, and 48x48 pixels) can be scaled and optimized independently. At small dimensions you can’t rely on the browser to automatically resize your icon in an optimal way. 
+- The ICO format is supported by all browsers and it’s the only format that IE5 through IE10 supports. Much as Microsoft Internet Explorer had been replaced by Microsoft Edge, as I am developing a site for optimum userability across multiple browsers I thought it would be remiss of me to select a format that definatly excluded compatability with Internet Explorer as according to Internet Explorer's own statistics as of 2023 they still had 28 million users worldwide.
+
+ Why bother with a favicon?
+- Brand recognition and association. 
+  A favicon is used to help users visually identify websites, web pages, and web applications more easily within browser tabs, bookmarks, shortcuts, and address bars more easily. It’s important to have a favicon for your website for brand recognition so that your users can easily identify your site in their browser tabs and bookmarks.
+
+Which favicon and why? 
+- Lots of websites use their product or service logo as its favicon to stay consistent with the company's brand and maintain that association people have with a certain logo as a brand or product identification. 
+
+
+
+ NOTE TO SELF: Match Favicon to Logo 
+ I'm looking for: 
+ - Something that shows up and stands out on a web brower tabs no matter what color it is (i.e. light or dark mode for white or black tabs?)
+ (note to self - what color does a favicon turn in dark mode? black on black? avoid black or white?) 
+  - Logos tried out:
+  insert image (Screenprint of Dog pawprint Icon 89239 (for use in README) from icons-icons)
+
+WCAG source: (https://www.boia.org/) Bureau of Internet Accessibility. 
+The Web Content Accessibility Guidelines (WCAG) is the international standard for digital accessibility. WCAG contains a number of success criteria that apply to icons.
+This criterion requires the visual presentation of text and images of text to maintain a contrast ratio of at least 4.5:1. The contrast ratio refers to the difference in luminance (light) between a foreground element and its background. 
+
+Many icons contain text, and users with vision disabilities may not be able to perceive text with a low contrast ratio. Even if an icon does not contain text, it’s a good idea to keep the icon within WCAG’s thresholds — remember, you’re including the icon because you want users to click on it. If the image is invisible to some people, it’s not doing its job.
+
+NOTE TO SELF: Does a favicon support the equivilent of an alt description for screen readers and accessibility? 
+
+NOTE TO SELF: 
+Screenprint of related images on istock (shown on icon-icons.com)
+ - Might be of use as related background images? Keep accessibility in mind. 
+
 Existing Features
 Navigation Bar
 
@@ -76,6 +113,16 @@ CSS
 No errors were found when passing through the official (Jigsaw) validator
 Unfixed Bugs
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+
+NOTE TO SELF: add section on accessibility testing. There is a link on https://www.boia.org/ to test website.
+Test Favicon
+Test all Icons
+Test all logos
+Test background images
+Test fonts chosen and default back up fonts. 
+Test all links internal and external. 
+Test all colour choices and combinations. 
+and show all results and changes made where required and why. 
 
 Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
