@@ -1,7 +1,28 @@
 /* Asterisk wildcard selector to override default styles added by the browser*/
 * {
-    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    /* set the box-sizing property for all our elements to border box*/
+    /* so that later when we set the height or width to an element*/
+    /* it will be applied to the entire element including the border*/
 }
+
+/* Header style rules */
+header {
+    background-color: red;
+}
+
+/* Main content style rules */
+main {
+    background-color: blue
+}
+
+/* Footer style rules */
+footer {
+    background-color:yellow ;
+}
+
 
 
 
