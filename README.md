@@ -15,11 +15,21 @@ In this section, you should go over the different parts of your project, and des
 Favicon 
 That little picture or icon that appears on the brower tab. 
 
+Working favicon on my site: (Light mode)
+
+![image](https://github.com/stephanielenehan/PP1-Handsome-Hounds/assets/35435182/56d9bdf8-ef88-4611-bfb2-447223bed615)
+
+Working favicon on my site: (Dark mode)
+
+![image](https://github.com/stephanielenehan/PP1-Handsome-Hounds/assets/35435182/43eedabc-1faf-4659-b674-822aa3465b3d)
+
+
+
 According to favicon.io "Some alternative names for favicon are browser icon, favorite icon, shortcut icon, tab icon, URL icon, and bookmark icon. The word favicon is short for “favorite icon” and originates from Internet Explorer’s “Favorites” feature which most modern browsers call “bookmarks”."
 
-I have opted for the format of ICO versus PNG or SVG for several reasons:
+I have ensured to include the format of ICO along with PNG or SVG for several reasons:
 - The ICO file format was developed by Microsoft and is the original file format for the favicon. The format is unique because it allows for multiple small images within the same file. This is advantageous because the small icons required for a favicon in ICO format (16x16, 32x32, and 48x48 pixels) can be scaled and optimized independently. At small dimensions you can’t rely on the browser to automatically resize your icon in an optimal way. 
-- The ICO format is supported by all browsers and it’s the only format that IE5 through IE10 supports. Much as Microsoft Internet Explorer had been replaced by Microsoft Edge, as I am developing a site for optimum userability across multiple browsers I thought it would be remiss of me to select a format that definatly excluded compatability with Internet Explorer as according to Internet Explorer's own statistics as of 2023 they still had 28 million users worldwide.
+- The ICO format is supported by all browsers and it’s the only format that IE5 through IE10 supports. Much as Microsoft Internet Explorer had been replaced by Microsoft Edge, as I am developing a site for optimum userability across multiple browsers I thought it would be remiss of me to select a format/s that definatly excluded compatability with Internet Explorer as according to Internet Explorer's own statistics as of 2023 they still had 28 million users worldwide.
 
  Why bother with a favicon?
 - Brand recognition and association. 
@@ -34,7 +44,7 @@ Which favicon and why?
  I'm looking for: 
  - Something that shows up and stands out on a web brower tabs no matter what color it is (i.e. light or dark mode for white or black tabs?)
  (note to self - what color does a favicon turn in dark mode? black on black? avoid black or white?) 
-  - Logos tried out:
+  - Logos selected:
   insert image (Screenprint of Dog pawprint Icon 89239 (for use in README) from icons-icons)
 
 WCAG source: (https://www.boia.org/) Bureau of Internet Accessibility. 
