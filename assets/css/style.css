@@ -8,6 +8,18 @@
     /* it will be applied to the entire element including the border*/
 }
 
+/*This should go directly under the style rule earlier with the asterisk*/
+/*as it's next in line as the most generic of the style rules*/
+/*and above the rest of the styles which are more specific*/
+/* General styles */ 
+body {
+    min-height: 100vh; /*using min-height will allow it to stretch larger than */
+    /*the height of the screen when there is enough content on the page that the user needs to scroll*/
+    display: flex;
+    flex-direction: column;
+
+}
+
 /* Header style rules */
 header {
     background-color: red;
