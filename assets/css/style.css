@@ -15,9 +15,8 @@
 body {
     min-height: 100vh; /*using min-height will allow it to stretch larger than */
     /*the height of the screen when there is enough content on the page that the user needs to scroll*/
-    display: flex;
-    flex-direction: column;
-
+    display: flex;/*We'll also want to set the display to flex and the flex-direction*/
+    flex-direction: column;/*to column so that our elements will show under each other*/
 }
 
 /* Header style rules */
