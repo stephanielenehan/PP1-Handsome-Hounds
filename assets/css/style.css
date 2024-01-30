@@ -28,10 +28,10 @@ header {
 
 /* Main content style rules */
 main {
-    background-color: blue
+    background-color: blue;
     /*Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
-    
+
 }
 
 /* Footer style rules */
