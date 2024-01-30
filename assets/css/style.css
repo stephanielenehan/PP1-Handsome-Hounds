@@ -17,6 +17,8 @@ body {
     /*the height of the screen when there is enough content on the page that the user needs to scroll*/
     display: flex;/*We'll also want to set the display to flex and the flex-direction*/
     flex-direction: column;/*to column so that our elements will show under each other*/
+    /*Generic Project Styles*/
+    color:3a3a3a;/*dark red - not sure why yet?*/
 }
 
 /* Header style rules */
@@ -27,6 +29,9 @@ header {
 /* Main content style rules */
 main {
     background-color: blue
+    /*Make main element take up any surplus space to push footer down*/
+    flex: 1 0 auto;
+    
 }
 
 /* Footer style rules */
