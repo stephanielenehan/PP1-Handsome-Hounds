@@ -130,6 +130,22 @@ Test all Icons
 Test all logos
 Test background images
 Test fonts chosen and default back up fonts. 
+ - Original fonts chosen  font-family: Verdana, Geneva, Tahoma, found to be now deleted or unsupported by Google fonts. 
+ - New fonts chosen font-family: Lato, Roboto, Ubuntu
+Ref recommended on https://morningtrain.dk/en/examples-of-good-fonts/
+We mostly use the following fonts:
+Roboto
+Lato
+Ubuntu
+Playfair
+Open Sans
+We mostly use these because:
+They work well digitally, whereas other fonts may be better suited for print.
+The shape of the letters makes them easy to read.
+They are fairly neutral fonts, so they can fit many different use cases across industries.
+All of the above-mentioned fonts belong to the so-called “Sans-serif” family.
+This group of fonts does not have “feet”, making it easier to read on the web where feet can quickly consist of too few pixels and become unclear to the reader.
+
 Test all links internal and external. 
 Test all colour choices and combinations. 
 and show all results and changes made where required and why. 
