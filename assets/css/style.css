@@ -24,6 +24,7 @@ body {
     flex-direction: column;/*to column so that our elements will show under each other*/
     /*Generic Project Styles*/
     color:3a3a3a;/*dark red - not sure why yet?*/
+    font-family: 'Lato', sans-serif; 
 }
 
 /* Header style rules */
