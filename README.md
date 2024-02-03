@@ -145,6 +145,7 @@ The shape of the letters makes them easy to read.
 They are fairly neutral fonts, so they can fit many different use cases across industries.
 All of the above-mentioned fonts belong to the so-called “Sans-serif” family.
 This group of fonts does not have “feet”, making it easier to read on the web where feet can quickly consist of too few pixels and become unclear to the reader.
+ - Dev notes on fonts: Lato, Roboto & Ubuntu proving extremely similar and hard to discern during initial implimentation. This may resolve with further dev by using different font sizes or weight. NOt ruling out will need to reselect another font. 
 
 Test all links internal and external. 
 Test all colour choices and combinations. 
