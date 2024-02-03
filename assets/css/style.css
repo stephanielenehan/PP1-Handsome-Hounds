@@ -31,9 +31,9 @@ body {
 header {
     background-color: red;
 }
-
+/*targeting the h1 here will apply Roboto to logo"*/
 h1 {
-    font-family: 'Roboto', sans-serif
+    font-family: 'Roboto', sans-serif;   
 }
 
 /* Main content style rules */
