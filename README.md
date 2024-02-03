@@ -237,7 +237,9 @@ This is my website offering dog grooming which displays a welcome landing page, 
 
 ## Navigation
 ![image](https://user-images.githubusercontent.com/35435182/181650552-5b2ce4b6-c888-438d-94a3-25f8394bad95.png)
- - Navigation bar consists of tabs for Home, Photos, Reasons to get your dog groomed, Opening Times, Make an Enquiry and Social Media
+ - Navigation bar consists of tabs for HOME, PHOTOS, REASONS TO GET YOUR DOG GROOMED, OPENING TIMES, MAKE AN ENQUIRY and SOCIAL MEDIA.
+ - Dev process: wording of 'PHOTOS' updated to 'GALLERY' as gallery implies more than photos if e.g. videos were added later. 
+ - Dec process: wording of 'REASONS TO GET YOUR DOG GROOMED' updated to 'REASONS FOR GROOMING' as wording used was too long winded to say same thing and there would too many words to try and run onto the next line when condensed for mobile. 
  - Each tab on the navigation bar of the index.html page functions with an internal link to bring the user to the relevant place on the page. 
  - Each tab on the navigation bar of the 404.html page functions with an internal link to bring the user back to the landing page and to the relevant section in one click. 
 
