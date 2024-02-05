@@ -41,11 +41,7 @@ header {
     padding: 0 1rem;
     /*add some padding left and right to prevent our text from
     sticking to the side of the screen.*/
-    position: fixed;
-    z-index: 99;
-    /*we want the nav bar to scroll along. We'll set its position to fixed and use a high z-index value.*/
-    /*use 99 to make sure it's layered on top of any other elements that might have a z-index later.*/
-    width: 100%;
+   
 
 }
 
