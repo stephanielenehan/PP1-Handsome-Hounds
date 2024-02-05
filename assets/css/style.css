@@ -8,9 +8,9 @@
 
 /* Asterisk wildcard selector to override default styles added by the browser*/
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box; 
+padding: 0;
+margin: 0;
+box-sizing: border-box;
     /* set the box-sizing property for all our elements to border box*/
     /* so that later when we set the height or width to an element*/
     /* it will be applied to the entire element including the border*/
@@ -19,20 +19,34 @@
 /*This should go directly under the style rule earlier with the asterisk*/
 /*as it's next in line as the most generic of the style rules*/
 /*and above the rest of the styles which are more specific*/
-/* General styles */ 
+/* General styles */
 body {
-    min-height: 100vh; /*using min-height will allow it to stretch larger than */
+    min-height: 100vh;
+    /*using min-height will allow it to stretch larger than */
     /*the height of the screen when there is enough content on the page that the user needs to scroll*/
-    display: flex;/*We'll also want to set the display to flex and the flex-direction*/
-    flex-direction: column;/*to column so that our elements will show under each other*/
+    display: flex;
+    /*We'll also want to set the display to flex and the flex-direction*/
+    flex-direction: column;
+    /*to column so that our elements will show under each other*/
+   
     /*Generic Project Styles*/
-    color:3a3a3a;/*dark red - not sure why yet?*/
-    font-family:'Lato', sans-serif; 
+    color: darkgreen;
+    /*for the moment showing up as just the buller colour beside each of the nav items*/
+    font-family: 'Lato', sans-serif;
 }
 
 /* Header style rules */
 header {
-    background-color: red;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    /*add some padding left and right to prevent our text from
+    sticking to the side of the screen.*/
+    position: fixed;
+    z-index: 99;
+    /*we want the nav bar to scroll along. We'll set its position to fixed and use a high z-index value.*/
+    /*use 99 to make sure it's layered on top of any other elements that might have a z-index later.*/
+    width: 100%;
+
 }
 
 h1 {
@@ -50,7 +64,7 @@ main {
 
 /* Footer style rules */
 footer {
-    background-color:yellow ;
+    background-color: yellow;
 }
 
 
@@ -185,8 +199,8 @@ nav {
 
     .menu li {
         display: flex;*/
-        /* magic */
-        /*align-self: center;
+/* magic */
+/*align-self: center;
         width: 100%;
         opacity: 0;
         visibility: hidden;
