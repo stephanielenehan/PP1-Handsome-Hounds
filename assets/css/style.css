@@ -1,10 +1,6 @@
 /*Google Fonts Import*/
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap')
-/*@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap')*/
-
-/**/
-/*('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap')*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap')
 
 /* Asterisk wildcard selector to override default styles added by the browser*/
 * {
@@ -32,7 +28,7 @@ body {
     /*Generic Project Styles*/
     color: darkgreen;
     /*for the moment showing up as just the buller colour beside each of the nav items*/
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
 }
 
 /* Header style rules */
@@ -51,7 +47,7 @@ header {
 
 
 h1 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Mono', sans-serif;
 }
 
 
