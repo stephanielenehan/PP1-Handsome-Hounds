@@ -1,3 +1,11 @@
+/* Color scheme
+#8D8741, Dark olive green
+#659DBD, Darkish sky blue
+#DAAD86, Dark Peach
+#BC986A, Dark Beige
+#FBEEC1 Beige Cream
+*/
+
 /*Google Fonts Import*/
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap')
@@ -27,13 +35,13 @@ body {
    
     /*Generic Project Styles*/
     color: darkgreen;
-    /*for the moment showing up as just the buller colour beside each of the nav items*/
+    /*for the moment showing up as just the buller colour beside each of the nav items which then disappears when I set the list-style-type in navmenu to none*/
     font-family: 'Roboto Flex', sans-serif;
 }
 
 /* Header style rules */
 header {
-    background-color: #659DBD; 
+    background-color: #659DBD;
     padding: 0 1rem;
     /*add some padding left and right to prevent our text from
     sticking to the side of the screen.*/
@@ -42,19 +50,34 @@ header {
     /*we want the nav bar to scroll along. We'll set its position to fixed and use a high z-index value.*/
     /*use 99 to make sure it's layered on top of any other elements that might have a z-index later.*/
     width: 100%;
-    box-shadow: 0 2px 2px white;
+    box-shadow: 0 2px 2px #FBEEC1;
+    
 }
 
 
 h1 {
     font-family: 'Roboto Mono', sans-serif;
-    color: white; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    
 }
 
+header a {
+    text-decoration:none;
+
+}
+
+#navmenu {
+    font-size: 100%;
+    letter-spacing: 3px;
+    list-style-type: none;
+    align-items: center;
+}
 
 /* Main content style rules */
 main {
-    background-color: blue;
+    background-color:#659DBD;
     /*Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
 
