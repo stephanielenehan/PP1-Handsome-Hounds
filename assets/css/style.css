@@ -75,6 +75,11 @@ header a {
     align-items: center;
 }
 
+#navmenu >li {
+    margin-bottom: 1em;
+
+}
+
 /* Main content style rules */
 main {
     background-color:#659DBD;
