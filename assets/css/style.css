@@ -59,12 +59,20 @@ h1 {
     font-family: 'Roboto Mono', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
+    align-content: center;
     color: yellow;
+    border-style: solid;
+    border-color: yellow;
+    border-width: 0.5em;
+    border-radius: 1em;
+    padding: 5%;
+
 }
 
 header a {
     text-decoration: none;
     color: inherit;
+
 
 }
 
@@ -76,11 +84,11 @@ header a {
 }
 
 #navmenu >li {
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
     padding: 2.5%;
     border-style: solid;
     border-color: yellow;
-    border-width: 0.5em;
+    border-width: 0.2em;
     border-radius: 1em;
 
 
