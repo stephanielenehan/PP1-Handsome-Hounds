@@ -150,7 +150,7 @@ This group of fonts does not have “feet”, making it easier to read on the we
 Test all links internal and external. 
 Test all colour choices and combinations. 
 and show all results and changes made where required and why.
- - Insert before & after pictures of new color scheme and explain why. i.e. accessibility top priority followed by appealing to general audience. Previous color scheme was pretty but not suitable for accessibility. 
+ - Insert before & after pictures of new color scheme and explain why. i.e. accessibility top priority followed by appealing to general audience. Previous color scheme was pretty but not suitable for accessibility. Ref for new color choice based on https://www.perkins.org/resource/choosing-high-contrast-color-schemes-for-low-vision/
 ~~Deployment~~
 ~~This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)~~
 
