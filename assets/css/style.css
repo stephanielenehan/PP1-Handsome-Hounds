@@ -59,11 +59,10 @@ h1 {
     font-family: 'Roboto Mono', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    align-content: center;
     color: yellow;
     border-style: solid;
     border-color: yellow;
-    border-width: 0.5em;
+    border-width: 0.2em;
     border-radius: 1em;
     padding: 5%;
 
@@ -77,22 +76,26 @@ header a {
 }
 
 #navmenu {
-    font-size: 100%;
+    font-size: 90%;
     letter-spacing: 3px;
     list-style-type: none;
-    align-items: center;
+   
 }
 
 #navmenu >li {
     margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
     padding: 2.5%;
     border-style: solid;
     border-color: yellow;
     border-width: 0.2em;
     border-radius: 1em;
-
-
 }
+
+/*Navbar styles with collapsable menu*/
+
 
 /* Main content style rules */
 main {
