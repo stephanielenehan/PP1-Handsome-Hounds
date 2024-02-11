@@ -34,7 +34,7 @@ body {
     /*to column so that our elements will show under each other*/
    
     /*Generic Project Styles*/
-    color: white; 
+    color: yellow;
     /*for the moment showing up as just the buller colour beside each of the nav items which then disappears when I set the list-style-type in navmenu to none*/
     font-family: 'Roboto Flex', sans-serif;
 }
@@ -59,11 +59,11 @@ h1 {
     font-family: 'Roboto Mono', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: yellowgreen;
+    color: yellow;
 }
 
 header a {
-    text-decoration:none;
+    text-decoration: none;
     color: inherit;
 
 }
@@ -78,6 +78,11 @@ header a {
 #navmenu >li {
     margin-bottom: 1em;
     padding: 2.5%;
+    border-style: groove;
+    border-color: yellow;
+    border-width: 1%;
+
+
 }
 
 /* Main content style rules */
