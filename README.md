@@ -131,7 +131,7 @@ Test all logos
 Test background images
 Test fonts chosen and default back up fonts. 
  - Original fonts chosen  font-family: Verdana, Geneva, Tahoma, found to be now deleted or unsupported by Google fonts. 
- - New fonts chosen font-family: Lato, Roboto, Ubuntu
+ - New fonts chosen font-family: Roboto Flex, Roboto Mono.
 Ref recommended on https://morningtrain.dk/en/examples-of-good-fonts/
 We mostly use the following fonts:
 Roboto
@@ -149,8 +149,8 @@ This group of fonts does not have “feet”, making it easier to read on the we
 
 Test all links internal and external. 
 Test all colour choices and combinations. 
-and show all results and changes made where required and why. 
-
+and show all results and changes made where required and why.
+ - Insert before & after pictures of new color scheme and explain why. i.e. accessibility top priority followed by appealing to general audience. Previous color scheme was pretty but not suitable for accessibility. Ref for new color choice based on https://www.perkins.org/resource/choosing-high-contrast-color-schemes-for-low-vision/
 ~~Deployment~~
 ~~This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)~~
 
