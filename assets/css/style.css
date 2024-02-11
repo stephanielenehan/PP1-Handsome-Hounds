@@ -42,14 +42,14 @@ body {
 /* Header style rules */
 header {
     background-color: #659DBD;
-    padding: 0 1rem;
+    padding: 1rem;
     /*add some padding left and right to prevent our text from
     sticking to the side of the screen.*/
     position: fixed;
     z-index: 99;
     /*we want the nav bar to scroll along. We'll set its position to fixed and use a high z-index value.*/
     /*use 99 to make sure it's layered on top of any other elements that might have a z-index later.*/
-    width: 100%;
+    width: 100%
     box-shadow: 0 2px 2px #FBEEC1;
     
 }
@@ -59,8 +59,7 @@ h1 {
     font-family: 'Roboto Mono', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: white;
-    
+    color: yellowgreen;
 }
 
 header a {
@@ -78,7 +77,7 @@ header a {
 
 #navmenu >li {
     margin-bottom: 1em;
-
+    padding: 2.5%;
 }
 
 /* Main content style rules */
