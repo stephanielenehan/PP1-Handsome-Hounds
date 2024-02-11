@@ -41,7 +41,7 @@ body {
 
 /* Header style rules */
 header {
-    background-color: #659DBD;
+    background-color: blue;
     padding: 1rem;
     /*add some padding left and right to prevent our text from
     sticking to the side of the screen.*/
@@ -87,7 +87,7 @@ header a {
 
 /* Main content style rules */
 main {
-    background-color:#659DBD;
+    background-color:blue;
     /*Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
 
