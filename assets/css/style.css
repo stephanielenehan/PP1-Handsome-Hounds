@@ -78,9 +78,10 @@ header a {
 #navmenu >li {
     margin-bottom: 1em;
     padding: 2.5%;
-    border-style: groove;
+    border-style: solid;
     border-color: yellow;
-    border-width: 1%;
+    border-width: 0.5em;
+    border-radius: 1em;
 
 
 }
