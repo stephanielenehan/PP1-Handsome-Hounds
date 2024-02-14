@@ -65,6 +65,9 @@ h1 {
     border-width: 0.2em;
     border-radius: 1em;
     padding: 5%;
+    margin: 0.5rem;
+    text-align: center;
+    align-items: center;
 
 }
 
@@ -92,9 +95,22 @@ header a {
     border-color: yellow;
     border-width: 0.2em;
     border-radius: 1em;
+    text-align: center;
 }
 
+/*For toggle/dropdown menu the nav bar styles need to be separate from the rest of the header content*/
 /*Navbar styles with collapsable menu*/
+nav {
+    position: absolute; /*absolute positioning takes an element outside the normal flow of the page structure.*/
+                        /*It is positioned relative to the nearest positioned ancestor, in our case, the header*/
+    background-color: blue;  
+    width: 100%;
+    left: 0;
+    padding: 1rem;
+    box-shadow: 0 2px 2px blue;
+
+}
+
 
 
 /* Main content style rules */
