@@ -51,7 +51,9 @@ header {
     /*use 99 to make sure it's layered on top of any other elements that might have a z-index later.*/
     width: 100%
     box-shadow: 0 2px 2px #FBEEC1;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 
@@ -109,8 +111,16 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px blue;
     display: none;
+}
+
+/*check boxes have a pseudo class that indicates when they are checked, we want the sibling nav element to display*/
+/* use the tilde to indicate that we want to target the adjoining nav element*/
+/*Nav toggle*/
+#nav-toggle:checked~nav {
+    display:block;
 
 }
+
 
 
 
