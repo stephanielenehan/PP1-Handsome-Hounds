@@ -111,6 +111,8 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px blue;
     display: none;
+    top: 100%;
+
 }
 
 /*check boxes have a pseudo class that indicates when they are checked, we want the sibling nav element to display*/
