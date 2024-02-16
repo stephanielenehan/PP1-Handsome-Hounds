@@ -52,7 +52,7 @@ header {
     width: 100%;
     box-shadow: 0 2px 2px #FBEEC1;
     display: flex;
-    justify-content: space-between;
+    
     align-items: baseline;
 }
 
