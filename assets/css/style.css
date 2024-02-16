@@ -60,6 +60,7 @@ header {
 h1 {
     font-family: 'Roboto Mono', sans-serif;
     text-transform: uppercase;
+    background-color: aqua;
     letter-spacing: 2px;
     color: yellow;
     border-style: solid;
@@ -71,11 +72,13 @@ h1 {
     text-align: center;
     align-items: center;
 
+
 }
 
 header a {
     text-decoration: none;
-    color: inherit;
+    color: yellow;
+
 
 
 }
