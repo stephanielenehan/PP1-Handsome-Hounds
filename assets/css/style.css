@@ -81,7 +81,7 @@ header a {
 }
 
 #navmenu {
-    font-size: 90%;
+    font-size: 100%;
     letter-spacing: 3px;
     list-style-type: none;
    
@@ -107,9 +107,9 @@ nav {
     position: absolute; /*absolute positioning takes an element outside the normal flow of the page structure.*/
                         /*It is positioned relative to the nearest positioned ancestor, in our case, the header*/
     background-color: blue;  
-    width: 100%;
+    width: 80%;
     left: 0;
-    p
+
     box-shadow: 0 2px 2px blue;
     display: none;
     top: 100%;/*this tells the navigation element that teh top of the element should start at the bottom of its parent*/
