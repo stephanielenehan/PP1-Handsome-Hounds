@@ -109,7 +109,7 @@ nav {
     background-color: blue;  
     width: 100%;
     left: 0;
-    padding: 0 1rem;
+    p
     box-shadow: 0 2px 2px blue;
     display: none;
     top: 100%;/*this tells the navigation element that teh top of the element should start at the bottom of its parent*/
