@@ -41,7 +41,7 @@ body {
 
 /* Header style rules */
 header {
-    background-color: blue;
+    background-color: pink;
     padding: 1rem;
     /*add some padding left and right to prevent our text from
     sticking to the side of the screen.*/
@@ -51,9 +51,9 @@ header {
     /*use 99 to make sure it's layered on top of any other elements that might have a z-index later.*/
     width: 100%;
     box-shadow: 0 2px 2px #FBEEC1;
-    display: flex;
-    
+    display:flex;
     align-items: baseline;
+    
 }
 
 
