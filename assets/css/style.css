@@ -80,14 +80,14 @@ header a {
 
 }
 
-#navmenu {
+#dropdownmenu {
     font-size: 100%;
     letter-spacing: 3px;
     list-style-type: none;
    
 }
 
-#navmenu >li {
+#dropdownmenu >li {
     margin-bottom: 0.5em;
     margin-top: 0.5em;
     background-color:blueviolet;
