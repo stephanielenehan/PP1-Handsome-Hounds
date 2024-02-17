@@ -51,19 +51,15 @@ header {
     z-index: 99;
     /*we want the nav bar to scroll along. We'll set its position to fixed and use a high z-index value.*/
     /*use 99 to make sure it's layered on top of any other elements that might have a z-index later.*/
-   
     box-shadow: 0 2px 2px yellow;
-    display: flex;
-   
-    
-    
+    display: flex;   
 }
 
 
 h1 {
     font-family: 'Roboto Mono', sans-serif;
     text-transform: uppercase;
-    background-color: aqua;
+    background-color: blue;
     letter-spacing: 2px;
     color: yellow;
     border-style: solid;
@@ -80,9 +76,7 @@ h1 {
 
 header a {
     text-decoration: none;
-    color: yellow; /*can change back to inherit if wish*/
-    background-color: chocolate;
-
+    color: inherit;
 
 }
 
