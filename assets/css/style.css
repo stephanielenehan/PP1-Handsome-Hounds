@@ -87,6 +87,7 @@ header a {
 }
 
 .fa-bars {
+    margin-top: 40%;
     padding:50%;
     border:50%;
     border-color: yellow;
