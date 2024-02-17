@@ -41,21 +41,21 @@ body {
 
 /* Header style rules */
 header {
-    border-style: solid;
-    border: 5 rem;
-    border-color: black;
     background-color: pink;
-    padding: 1rem;
+    padding: 2%;
     /*add some padding left and right to prevent our text from
     sticking to the side of the screen.*/
     position: fixed;
+    width: 100%;
+
     z-index: 99;
     /*we want the nav bar to scroll along. We'll set its position to fixed and use a high z-index value.*/
     /*use 99 to make sure it's layered on top of any other elements that might have a z-index later.*/
-    width: 100%;
+   
     box-shadow: 0 2px 2px #FBEEC1;
-    display:flex;
-    align-items: baseline;
+    display: flex;
+   
+    
     
 }
 
@@ -81,19 +81,7 @@ h1 {
 header a {
     text-decoration: none;
     color: yellow; /*can change back to inherit if wish*/
-    font-family: 'Roboto Mono', sans-serif;
-    text-transform: uppercase;
-    background-color:chocolate;
-    letter-spacing: 2px;
-    color: yellow;
-    border-style: solid;
-    border-color: yellow;
-    border-width: 0.2em;
-    border-radius: 1em;
-    padding: 5%;
-    margin: 0.5rem;
-    text-align: center;
-    align-items: center;
+    background-color: chocolate;
 
 
 }
@@ -125,7 +113,7 @@ nav {
     position: absolute; /*absolute positioning takes an element outside the normal flow of the page structure.*/
                         /*It is positioned relative to the nearest positioned ancestor, in our case, the header*/
     background-color: red; 
-    width: 80%;
+    width: 100%;
     left: 0;
 
     
@@ -156,6 +144,7 @@ main {
     background-color:blue;
     /*Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
+    margin-top: 10%;
 
 }
 
