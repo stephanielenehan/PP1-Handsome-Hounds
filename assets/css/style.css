@@ -98,7 +98,7 @@ header a {
     border-color: yellow;
     border-width: 0.2em;
     border-radius: 1em;
-    text-align: center;
+    text-align:inherit;
 }
 
 /*For toggle/dropdown menu the nav bar styles need to be separate from the rest of the header content*/
