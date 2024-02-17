@@ -68,14 +68,14 @@ h1 {
     border-color: yellow;
     border-width: 1em;
     border-radius: 1em;
-    padding: 5%;
+    
 
 }
 
 header a {
     text-decoration: none;
     color: inherit;
-    padding: 2%;
+   
 
 }
 
@@ -84,6 +84,13 @@ header a {
     letter-spacing: 4px;
     list-style-type: none;
    
+}
+
+.fa-bars {
+    padding:50%;
+    border:50%;
+    border-color: yellow;
+    border-style: solid;
 }
 
 #dropdownmenu >li {
