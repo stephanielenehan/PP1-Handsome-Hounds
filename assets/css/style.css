@@ -52,7 +52,7 @@ header {
     /*we want the nav bar to scroll along. We'll set its position to fixed and use a high z-index value.*/
     /*use 99 to make sure it's layered on top of any other elements that might have a z-index later.*/
    
-    box-shadow: 0 2px 2px #FBEEC1;
+    box-shadow: 0 2px 2px yellow;
     display: flex;
    
     
