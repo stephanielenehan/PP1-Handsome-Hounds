@@ -42,7 +42,7 @@ body {
 /* Header style rules */
 header {
     background-color: pink;
-    padding: 2%;
+    padding: 0 1rem;
     /*add some padding left and right to prevent our text from
     sticking to the side of the screen.*/
     position: fixed;
