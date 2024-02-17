@@ -81,15 +81,15 @@ header a {
 }
 
 #dropdownmenu {
-    font-size: 120%;
+    font-size: 130%;
     letter-spacing: 4px;
     list-style-type: none;
    
 }
 
 #dropdownmenu >li {
-    margin-bottom: 0.5em;
-    margin-top: 0.5em;
+    margin-bottom: 1em;
+    padding: 1em;
     background-color:blueviolet;
    
    
