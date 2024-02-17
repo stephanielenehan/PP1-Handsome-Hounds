@@ -106,7 +106,7 @@ header a {
 nav {
     position: absolute; /*absolute positioning takes an element outside the normal flow of the page structure.*/
                         /*It is positioned relative to the nearest positioned ancestor, in our case, the header*/
-    background-color: red; 
+    background-color: blue;
     width: 100%;
     left: 0;
 
