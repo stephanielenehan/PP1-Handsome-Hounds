@@ -65,20 +65,17 @@ h1 {
     letter-spacing: 2px;
     color: yellow;
     border-style: solid;
-    border-color: blue;
+    border-color: yellow;
     border-width: 1em;
     border-radius: 1em;
     padding: 5%;
-    
-   
-    
-
 
 }
 
 header a {
     text-decoration: none;
     color: inherit;
+    padding: 2%;
 
 }
 
