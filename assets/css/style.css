@@ -15,6 +15,7 @@
 padding: 0;
 margin: 0;
 box-sizing: border-box;
+
     /* set the box-sizing property for all our elements to border box*/
     /* so that later when we set the height or width to an element*/
     /* it will be applied to the entire element including the border*/
@@ -87,11 +88,8 @@ header a {
 }
 
 .fa-bars {
-    margin-top: 40%;
     padding:50%;
-    border:50%;
-    border-color: yellow;
-    border-style: solid;
+   
 }
 
 #dropdownmenu >li {
@@ -103,9 +101,10 @@ header a {
    
     border-style: solid;
     border-color: yellow;
-    border-width: 0.2em;
+    border-width: 3%;
     border-radius: 1em;
     text-align:inherit;
+    width: fit-content;
 }
 
 /*For toggle/dropdown menu the nav bar styles need to be separate from the rest of the header content*/
@@ -132,6 +131,7 @@ nav {
 
 #nav-toggle {
     display: none;
+    
 }
 
 .nav-toggle-label {
