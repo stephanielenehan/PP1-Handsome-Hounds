@@ -21,7 +21,12 @@ I have changed the color scheme completely.  Whilst the old color scheme was "pr
 
 I have developed the header and nav bar from scratch this time around (using the new Love Running walkthrough for guidance) as opposed to the last nav bar which was attributed to someone else and I was barely able to understand, let alone create one myself. 
 
+BUG: 
 There is a definite issue with the overflow of my header and the content being pushed to the right off the screen (regardless of screen size).  I suspect the issue is related to positioning and width and have unfortunately not yet solved that but am determined to do so. 
+BUG RESOLUTION:
+I identified the issue after some time as missing the semi-colon in the imported google font which is immediately prior to the asterisk wildcard selector in my css. The missing semi-colon couldn't be immediately seen as the imported google font ran off the page. The ommission of the semi-colon's effect was that the asterisk wildcard selector didn't run. I couldn't see at the time that the asterisk had a white coloring with a red squiggly line underneath. I solved the bug using diffchecker.com website. When I pasted in the code for the lines with the wildcard selector, I also pasted in the imported google font above it. Only when the google font then showed in full on the screen did I see the missing semi-colon and begin to understand the issue and also to recognise the indicators of the error.  
+
+
 
 
 Favicon 
