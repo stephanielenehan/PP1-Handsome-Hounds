@@ -82,6 +82,7 @@ nav {
     background-color: blue;
     width: 100%;
     left: 0;
+    padding: 0 1 rem;
     display: none;
     top: 100%;/*this tells the navigation element that teh top of the element should start at the bottom of its parent*/
 }
@@ -98,7 +99,7 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 5rem;
+    font-size: 2rem;
     background-color: blue;
 }
 
