@@ -67,11 +67,12 @@ h1 {
     margin-bottom: 1em;
 }
 
-.fa-bars {
-    padding:50%; 
+.active {
+    border-bottom: 1px solid yellow;
 }
 
-
+.fa-bars { 
+}
 
 /*For toggle/dropdown menu the nav bar styles need to be separate from the rest of the header content*/
 /*Navbar styles with collapsable menu*/
