@@ -26,6 +26,7 @@ There is a definite issue with the overflow of my header and the content being p
 BUG RESOLUTION:
 I identified the issue after some time as missing the semi-colon in the imported google font which is immediately prior to the asterisk wildcard selector in my css. The missing semi-colon couldn't be immediately seen as the imported google font ran off the page. The ommission of the semi-colon's effect was that the asterisk wildcard selector didn't run. I couldn't see at the time that the asterisk had a white coloring with a red squiggly line underneath. I solved the bug using diffchecker.com website. When I pasted in the code for the lines with the wildcard selector, I also pasted in the imported google font above it. Only when the google font then showed in full on the screen did I see the missing semi-colon and begin to understand the issue and also to recognise the indicators of the error.  
 
+Insert screenshots 
 
 
 

@@ -1,24 +1,11 @@
-/* Color scheme
-#8D8741, Dark olive green
-#659DBD, Darkish sky blue
-#DAAD86, Dark Peach
-#BC986A, Dark Beige
-#FBEEC1 Beige Cream
-*/
-
 /*Google Fonts Import*/
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser*/
 * {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-
-    /* set the box-sizing property for all our elements to border box*/
-    /* so that later when we set the height or width to an element*/
-    /* it will be applied to the entire element including the border*/
+padding: 0;/* set the box-sizing property for all our elements to border box*/
+margin: 0;/* so that later when we set the height or width to an element*/
+box-sizing: border-box;/* it will be applied to the entire element including the border*/       
 }
 
 /*This should go directly under the style rule earlier with the asterisk*/
@@ -36,7 +23,7 @@ body {
    
     /*Generic Project Styles*/
     color: yellow;
-    /*for the moment showing up as just the buller colour beside each of the nav items which then disappears when I set the list-style-type in navmenu to none*/
+    /*initially showing up as just the bullet colour beside each of the nav items which then disappears when I set the list-style-type in navmenu to none*/
     font-family: 'Roboto Flex', sans-serif;
 }
 
@@ -50,14 +37,12 @@ header {
     sticking to the side of the screen.*/
     position: fixed;
     width: 100%;
-
     z-index: 99;
     /*we want the nav bar to scroll along. We'll set its position to fixed and use a high z-index value.*/
     /*use 99 to make sure it's layered on top of any other elements that might have a z-index later.*/
     box-shadow: 0 2px 2px yellow;
     display: flex;   
 }
-
 
 h1 {
     font-family: 'Roboto Mono', sans-serif;
@@ -70,36 +55,27 @@ h1 {
     border-width: 1rem;
     padding:1rem;
     margin-left: 1rem;
-    
-
 }
 
 header a {
     text-decoration: none;
     color: inherit;
-   
-
 }
 
 #dropdownmenu {
     font-size: 130%;
     letter-spacing: 4px;
     list-style-type: none;
-   
 }
 
 .fa-bars {
-    padding:50%;
-   
+    padding:50%; 
 }
 
 #dropdownmenu >li {
     margin-bottom: 1em;
     padding: 1em;
     background-color:blue;
-   
-   
-   
     border-style: solid;
     border-color: yellow;
     border-width: 3%;
@@ -117,11 +93,8 @@ nav {
     background-color: blue;
     width: 100%;
     left: 0;
-
-    
     display: none;
     top: 100%;/*this tells the navigation element that teh top of the element should start at the bottom of its parent*/
-
 }
 
 /*check boxes have a pseudo class that indicates when they are checked, we want the sibling nav element to display*/
@@ -132,8 +105,7 @@ nav {
 }
 
 #nav-toggle {
-    display: none;
-    
+    display: none;   
 }
 
 .nav-toggle-label {
@@ -141,14 +113,12 @@ nav {
     background-color: blue;
 }
 
-
 /* Main content style rules */
 main {
     background-color:blue;
     /*Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
     margin-top: 47px; 
-
 }
 
 /* Footer style rules */
