@@ -122,22 +122,19 @@ footer {
 @media screen and (min-width: 768px) {
     /*Header*/
 nav {
-    display:flex; /*to make sure the nav bar is always displayed so we can see all the nav links*/
-    position: relative; /*so the nav bar will appear back inside the header*/
+    display:block;/*to make sure the nav bar is always displayed so we can see all the nav links*/
+    position: relative;/*so the nav bar will appear back inside the header*/
     box-shadow: none;/*to hide the box shadow*/
      /*no longer takes up all the space in the header, allowing flex styles from earlier to push it to the right*/
-    padding-right: 1rem; /*so menu items won't stick to the right of the screen*/
-    
+    padding-right: 1rem;/*so menu items won't stick to the right of the screen*/
 }
 
-#dropdownmenu {
-    display: flex; /*so items will now show side by side & not under each other*/
-
+#menu {
+    display:flex;/*so items will now show side by side & not under each other*/
 }
 
-#dropdownmenu >li {
-    margin-right: 1rem;
-    padding-bottom: none;
+#menu>li {
+    padding-left:1rem;
 }
 
 .nav-toggle-label{
@@ -145,7 +142,7 @@ nav {
 }
 
 #logo {
-    font-size: 250%;
+    font-size: 280%;
     line-height: 75px;
     margin: 0 0.5rem; 
 }
@@ -154,8 +151,8 @@ nav {
 main {
     /*Push main content down to accommodate larger header*/
     margin-top: 79px;
-    
 }
+
 
 
 
