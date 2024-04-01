@@ -3,9 +3,9 @@
 
 /* Asterisk wildcard selector to override default styles added by the browser*/
 * {
-padding: 0;/* set the box-sizing property for all our elements to border box*/
-margin: 0;/* so that later when we set the height or width to an element*/
-box-sizing: border-box;/* it will be applied to the entire element including the border*/       
+    padding: 0;/* set the box-sizing property for all our elements to border box*/
+    margin: 0;/* so that later when we set the height or width to an element*/
+    box-sizing: border-box;/* it will be applied to the entire element including the border*/
 }
 
 /*This should go directly under the style rule earlier with the asterisk*/
@@ -21,16 +21,16 @@ body {
     flex-direction: column;
     /*to column so that our elements will show under each other*/
    
-    /*Generic Project Styles*/
+/*Generic Project Styles*/
     color: yellow;
     /*initially showing up as just the bullet colour beside each of the nav items which then disappears when I set the list-style-type in navmenu to none*/
     font-family: 'Roboto Flex', sans-serif;
 }
 
-/* Header style rules */
+/* Header style rules*/
 header {/*header is the outermost container*/
     background-color: blue;
-    padding: 0 1 rem;
+    padding: 0 1rem;
     /*add some padding left and right to prevent our text from
     sticking to the side of the screen.*/
     position: fixed;
@@ -86,7 +86,7 @@ nav {
     padding: 0 1 rem;
     box-shadow: 0 2px 2px;
     display: none;
-    top: 100%;/*this tells the navigation element that teh top of the element should start at the bottom of its parent*/
+    top: 100%;/*this tells the navigation element that the top of the element should start at the bottom of its parent*/
 }
 
 /*check boxes have a pseudo class that indicates when they are checked, we want the sibling nav element to display*/
@@ -152,9 +152,12 @@ main {
     /*Push main content down to accommodate larger header*/
     margin-top: 79px;
 }
+}
 
+/*Media query:laptops & desktops (992px & above) .=992px*/
+@media screen and (min-width:992px){
 
-
+}
 
 
 
