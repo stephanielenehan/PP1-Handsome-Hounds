@@ -39,7 +39,7 @@ header {/*header is the outermost container*/
     /*we want the nav bar to scroll along. We'll set its position to fixed and use a high z-index value.*/
     /*use 99 to make sure it's layered on top of any other elements that might have a z-index later.*/
     box-shadow: 0 2px 2px yellow;
-    display: flex; 
+    display:flex;
     justify-content:space-between;
     align-items:baseline;
 }
@@ -63,7 +63,7 @@ h1 {
     list-style-type: none;
 }
 
-#menu >li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -71,22 +71,21 @@ h1 {
     border-bottom: 1px solid yellow;
 }
 
-.fa-bars { 
-}
+.fa-bars {}
 
 /*For toggle/dropdown menu the nav bar styles need to be separate from the rest of the header content*/
 /*Navbar styles with collapsable menu*/
 nav {
-    position: absolute; 
+    position: absolute;
     /*absolute positioning takes an element outside the normal flow of the page structure.*/
     /*It is positioned relative to the nearest positioned ancestor, in our case, the header*/
-    background-color: blue;
-    width: 100%;
-    left: 0;
-    padding: 0 1 rem;
-    box-shadow: 0 2px 2px;
-    display: none;
-    top: 100%;/*this tells the navigation element that the top of the element should start at the bottom of its parent*/
+    background-color:blue;
+    width:100%;
+    left:0;
+    padding:0 1rem;
+    box-shadow:0 2px 2px;
+    display:none;
+    top:100%;/*this tells the navigation element that the top of the element should start at the bottom of its parent*/
 }
 
 /*check boxes have a pseudo class that indicates when they are checked, we want the sibling nav element to display*/
@@ -97,12 +96,12 @@ nav {
 }
 
 #nav-toggle {
-    display: none;   
+    display:none;
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
-    background-color: blue;
+    font-size:2rem;
+    background-color:blue;
 }
 
 /* Main content style rules */
@@ -110,7 +109,7 @@ main {
     background-color:blue;
     /*Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
-    margin-top: 47px; 
+    margin-top:47px;
 }
 
 /* Footer style rules */
@@ -118,14 +117,15 @@ footer {
     background-color: yellow;
 }
 
-/*Media query: tablets & larger (768px & above)*/
+/*Media query: tablets & larger (768px & above) >=768px*/
 @media screen and (min-width: 768px) {
     /*Header*/
 nav {
     display:block;/*to make sure the nav bar is always displayed so we can see all the nav links*/
-    position: relative;/*so the nav bar will appear back inside the header*/
-    box-shadow: none;/*to hide the box shadow*/
+    position:relative;/*so the nav bar will appear back inside the header*/
+    box-shadow:none;/*to hide the box shadow*/
      /*no longer takes up all the space in the header, allowing flex styles from earlier to push it to the right*/
+    width:fit-content;/*no longer takes up all the space in the header, allowing flex styles from earlier to push it to the right*/
     padding-right: 1rem;/*so menu items won't stick to the right of the screen*/
 }
 
