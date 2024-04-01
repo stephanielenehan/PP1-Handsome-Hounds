@@ -45,6 +45,7 @@ header {/*header is the outermost container*/
 }
 
 header a {
+    margin-top: 1em;
     text-decoration: none;
     color: inherit;
 }
@@ -64,14 +65,16 @@ h1 {
 }
 
 #menu>li {
-    margin-bottom: 1em;
+    margin-top: 1em;
 }
 
 .active {
     border-bottom: 1px solid yellow;
 }
 
-.fa-bars {}
+.fa-bars {
+    margin-right: 0.5em;
+}
 
 /*For toggle/dropdown menu the nav bar styles need to be separate from the rest of the header content*/
 /*Navbar styles with collapsable menu*/
@@ -123,8 +126,7 @@ footer {
 nav {
     display:block;/*to make sure the nav bar is always displayed so we can see all the nav links*/
     position:relative;/*so the nav bar will appear back inside the header*/
-    box-shadow:none;/*to hide the box shadow*/
-     /*no longer takes up all the space in the header, allowing flex styles from earlier to push it to the right*/
+    box-shadow:none;
     width:fit-content;/*no longer takes up all the space in the header, allowing flex styles from earlier to push it to the right*/
     padding-right: 1rem;/*so menu items won't stick to the right of the screen*/
 }
@@ -154,7 +156,7 @@ main {
 }
 }
 
-/*Media query:laptops & desktops (992px & above) .=992px*/
+/*Media query:laptops & desktops (992px & above) >=992px*/
 @media screen and (min-width:992px){
 
 }
