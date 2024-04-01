@@ -116,17 +116,25 @@ main {
 }
 
 /* Footer style rules */
-#social-media {
-    text-align: center;
-    color: blue;
-}
 
 footer {
+    text-align: center;
+    color: blue;
     background-color: yellow;
     padding-top: 1em;
     padding-bottom: 1em;
     padding-left: 1em;
     padding-right: 1em;
+}
+
+footer a {
+    color: blue;
+    font-size: x-large;
+    padding: 0.5em;
+}
+
+footer p {
+    padding-top: 1em;
 }
 
 
