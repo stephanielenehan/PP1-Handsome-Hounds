@@ -118,7 +118,15 @@ main {
 /* Footer style rules */
 footer {
     background-color: yellow;
+    color: blue;
 }
+
+#social-media {
+    text-align: center;
+    color: blue;
+}
+
+
 
 /*Media query: tablets & larger (768px & above) >=768px*/
 @media screen and (min-width: 768px) {
