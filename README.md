@@ -123,7 +123,8 @@ and show all results and changes made where required and why.
 
 
 Reverted background color with acceptable lighthouse accessibility score
-(image in documents folder)
+![image](https://github.com/stephanielenehan/PP1-Handsome-Hounds/assets/35435182/d46c84f5-770d-48fd-8608-206457260eae)
+
 
 
 OLD README BELOW
