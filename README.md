@@ -122,11 +122,8 @@ and show all results and changes made where required and why.
 ![Screenshot media query tablet 768px   above, header still being cut off to the right](https://github.com/stephanielenehan/PP1-Handsome-Hounds/assets/35435182/9ce8d441-3196-458a-a3a4-48d7b048a305)
 
 
-
-
-
-
-
+Reverted background color with acceptable lighthouse accessibility score
+(image in documents folder)
 
 
 OLD README BELOW

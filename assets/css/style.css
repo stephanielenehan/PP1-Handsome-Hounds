@@ -29,7 +29,7 @@ body {
 
 /* Header style rules*/
 header {/*header is the outermost container*/
-    background-color: blue;
+    background-color: #659DBD;
     padding: 0 1rem;
     /*add some padding left and right to prevent our text from
     sticking to the side of the screen.*/
@@ -53,7 +53,7 @@ header a {
 h1 {
     font-family: 'Roboto Mono', sans-serif;
     text-transform: uppercase;
-    background-color: blue;
+    background-color: #659DBD;
     letter-spacing: 2px;
     color: yellow;
 }
@@ -82,7 +82,7 @@ nav {
     position: absolute;
     /*absolute positioning takes an element outside the normal flow of the page structure.*/
     /*It is positioned relative to the nearest positioned ancestor, in our case, the header*/
-    background-color:blue;
+    background-color: #659DBD;
     width:100%;
     left:0;
     padding:0 1rem;
@@ -104,12 +104,12 @@ nav {
 
 .nav-toggle-label {
     font-size:2rem;
-    background-color:blue;
+    background-color:#659DBD;
 }
 
 /* Main content style rules */
 main {
-    background-color:blue;
+    background-color:#659DBD;
     /*Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
     margin-top:49px;
@@ -119,7 +119,7 @@ main {
 
 footer {
     text-align: center;
-    color: blue;
+    color: #659DBD;
     background-color: yellow;
     padding-top: 1em;
     padding-bottom: 1em;
@@ -128,7 +128,7 @@ footer {
 }
 
 footer a {
-    color: blue;
+    color: #659DBD;
     font-size: x-large;
     padding: 0.5em;
 }
