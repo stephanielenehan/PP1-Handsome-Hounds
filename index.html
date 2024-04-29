@@ -34,9 +34,7 @@
             <ul id="menu">
                 <li><a href="" class="active">HOME</a></li>
                 <li><a href="">GALLERY</a></li>
-                <!--inc reasons for grooming here too-->
                 <li><a href="">CONTACT</a></li>
-                <!--inc opening times & make an enquiry here too-->
             </ul>
         </nav>
     </header>
@@ -130,17 +128,21 @@
         <div id="enquiry">
             <h2>Make an Enquiry</h2>
     <!--Enquiry form-->
-    <p>Give us your email address or phone number and we will contact you to prepare a quote</p>
+    <p>Give us your Name, email address & phone number and we will contact you to prepare a quote</p>
             <form method="post" action="https://formdump.codeinstitute.net">
-                <label for="your_email_address">Your Email Address</label>
-                <input id="your_email_address" type="email">
+                <label for="your_name">Your Name</label>
+                <input id="your_name" type="text" name="your_name" required maxlength="25">
 
+                <br>
+
+                <label for="your_email_address">Your Email Address</label>
+                <input id="your_email_address" type="email" name="your_email_address" required>
 
                 <br>
 
                 <label for="your_phone_number">Your phone number (please
                     enter your full number with no spaces)</label>
-                <input id="your_phone_number" type="number">
+                <input id="your_phone_number" type="tel" pattern="\d*" maxlength="15" name="your_phone_number" required>
                 <input type="submit">
             </form>
 
