@@ -89,6 +89,8 @@ header p {
 
 .fa-bars {
     margin-right: 0.5em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 /*For toggle/dropdown menu the nav bar styles need to be separate from the rest of the header content*/
