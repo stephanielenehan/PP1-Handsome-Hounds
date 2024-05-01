@@ -30,9 +30,10 @@ body {
 /* Header style rules*/
 header {/*header is the outermost container*/
     background-color: #659DBD;
-    padding: 0 1rem;
-    /*add some padding left and right to prevent our text from
-    sticking to the side of the screen.*/
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
     position: fixed;
     width: 100%;
     z-index: 99;
@@ -40,8 +41,7 @@ header {/*header is the outermost container*/
     /*use 99 to make sure it's layered on top of any other elements that might have a z-index later.*/
     box-shadow: 0 2px 2px yellow;
     display:flex;
-    justify-content:space-between;
-    align-items:baseline;
+    align-items: center;
 }
 
 header a {
