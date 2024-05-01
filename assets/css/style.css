@@ -44,10 +44,8 @@ header {/*header is the outermost container*/
     align-items: center;
 }
 
-header a {
-    margin-top: 0.5em;
+header a { 
     text-decoration: none;
-    color: inherit;
 }
 
 header h1 {
