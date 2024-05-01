@@ -67,6 +67,12 @@ header p {
     align-content: center;
 }
 
+#logo-tagline-container {
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
