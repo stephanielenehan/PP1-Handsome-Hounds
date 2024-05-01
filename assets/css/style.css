@@ -54,14 +54,17 @@ header h1 {
     background-color: #659DBD;
     letter-spacing: 2px;
     color: yellow;
-}
+    }
 
 header p {
     font-family: 'Roboto Mono', sans-serif;
     background-color: #659DBD;
-    letter-spacing: px;
+    letter-spacing: 2px;
     color: yellow;
-    padding: 0 1rem;
+    padding-top: 1rem;
+    align-items: center;
+    align-self: center;
+    align-content: center;
 }
 
 #menu {
