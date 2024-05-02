@@ -251,3 +251,16 @@ main {
         background: url("../images/2-pugs-two-tone-and-black.webp") no-repeat center center/cover;
     }
 }
+
+/*Media query:laptops & desktops (1440px & above) >=1440px*/
+@media screen and (min-width:1440px){
+    #menu a:hover{
+        border-bottom: 1px solid #345365;
+    }
+
+    #home-page-top-image {
+        height: 900px;
+        width: 100%;
+        background: url("../images/2-pugs-two-tone-and-black.webp") no-repeat center center/cover;
+    }
+}
