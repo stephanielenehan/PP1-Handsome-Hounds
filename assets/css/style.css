@@ -264,3 +264,30 @@ main {
         background: url("../images/2-pugs-two-tone-and-black.webp") no-repeat center center/cover;
     }
 }
+
+/*Media query:laptops & desktops (1920px & above) >=1920px*/
+@media screen and (min-width:1920px){
+    #menu a:hover{
+        border-bottom: 1px solid #345365;
+    }
+
+    #home-page-top-image {
+        height:1100px;
+        width: 100%;
+        background: url("../images/2-pugs-two-tone-and-black.webp") no-repeat center center/cover;
+    }
+}
+
+/*Media query:laptops & desktops (2560px & above) >=2560px*/
+@media screen and (min-width:2560px){
+    #menu a:hover{
+        border-bottom: 1px solid #345365;
+    }
+
+    #home-page-top-image {
+        height: 1500px;
+        width: 100%;
+        background: url("../images/2-pugs-two-tone-and-black.webp") no-repeat center center/cover;
+    }
+}
+
