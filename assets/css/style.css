@@ -132,11 +132,11 @@ main {
     flex: 1 0 auto;
     margin-top: 185px;
 }
-
-#shih-tzu-grooming {
-    height: 300px;
+/*mobile view up to 320px*/
+#home-page-top-image {
+    height: 180px;
     width: 100%;
-    background: url("../images/wet-animal-canine-grooming.webp") no-repeat center center/cover;
+    background: url("../images/2-pugs-two-tone-and-black.webp") no-repeat center center/cover;
 }
 
 #reasons {
@@ -162,6 +162,16 @@ footer a {
 
 footer p {
     padding-top: 1em;
+}
+
+/*Media query: larger mobile (375px & above)*/
+@media screen and (min-width:375px) {
+
+#home-page-top-image {
+    height: 700px;
+    width: 100%;
+    background: url("../images/wet-animal-canine-grooming.webp") no-repeat center center/cover;
+}
 }
 
 /*Media query: tablets & larger (768px & above) >=768px*/
