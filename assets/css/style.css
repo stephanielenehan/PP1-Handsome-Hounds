@@ -126,10 +126,19 @@ nav {
 
 /* Main content style rules */
 main {
-    background-color:#659DBD;
     /*Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
     margin-top: 185px;
+}
+
+#shih-tzu-grooming {
+    height: 300px;
+    width: 100%;
+    background: url("../images/shih-tzu-grooming.webp") no-repeat center center/cover;
+}
+
+#reasons {
+    background-color: #659DBD;
 }
 
 /* Footer style rules */
