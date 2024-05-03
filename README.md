@@ -1,34 +1,13 @@
-Return to course mid Jan 2024. 
-New deployment 18.01.24
-https://stephanielenehan.github.io/PP1-Handsome-Hounds/
-
-To whom it may concern, I wish to respectfully acknowledge that whilst this submission is technically a resubmission, that it is wholly incomplete to date. I have effectively started over on the project and have based my new code mostly on the newer version of the Love Running walkthrough that has been added to the LMS. I last attempted the course prior to ADHD diagnosis and treatment over the last year during which time I did not code at all. 
-
-Whilst I am disappointed not to have completed this project in time and will have to work hard to complete it now before final grading, I am nonetheless pleased with the development process so far and look forward to completing the project. I have chosen to leave the original code of my first attempt at the project in the repo and you will find it commented out below the code I am developing now. In order to be able to run the old code to remind myself of how it originally looked and functioned, I copied the old code into a second repo entitled test which can be seen below. 
-
-https://stephanielenehan.github.io/test/
-
-The original repo which I returned to with its complete commit history both old and new can be found under:
-
-https://stephanielenehan.github.io/PP1-Handsome-Hounds/
-
-My README.md is a work in progress with a mixture of notes on both the old version of the project and the new. 
-Some aspects of the project have been changed altogether. This reflects a more coherent development process.
-
 I have updated the font choices for two reasons: 1. I discovered that the original fonts that I chose are no longer available / supported. 2. In assessing the best fonts to use for accessibility I ensured to select new fonts that meet that criteria. 
 
-I have changed the color scheme completely.  Whilst the old color scheme was "pretty", I have approached this version of the project from the perspective of accessibility. In particular with visual impairment in mind. The previous color scheme did not conform to the required contrast ratio. Whilst I changed various elements to different colors during the development process to enable me to understand layout, the two colors in use are blue and yellow to reflect this. As the rest of all my original content is still commented out the website currently looks quite bare. 
-
-I have developed the header and nav bar from scratch this time around (using the new Love Running walkthrough for guidance) as opposed to the last nav bar which was attributed to someone else and I was barely able to understand, let alone create one myself. 
+I have changed the color scheme completely.  Whilst the old color scheme was "pretty", I have approached this version of the project from the perspective of accessibility. In particular with visual impairment in mind. The previous color scheme did not conform to the required contrast ratio. Whilst I changed various elements to different colors during the development process to enable me to understand layout, the two colors in use are  and  to reflect the closest I could get to my chosen color scheme whilst being compliant for accessibility. 
 
 BUG: 
-There is a definite issue with the overflow of my header and the content being pushed to the right off the screen (regardless of screen size).  I suspect the issue is related to positioning and width and have unfortunately not yet solved that but am determined to do so. 
+I had a definite issue with the overflow of my header and the content being pushed to the right off the screen (regardless of screen size).
 BUG RESOLUTION:
-I identified the issue after some time as missing the semi-colon in the imported google font which is immediately prior to the asterisk wildcard selector in my css. The missing semi-colon couldn't be immediately seen as the imported google font ran off the page. The ommission of the semi-colon's effect was that the asterisk wildcard selector didn't run. I couldn't see at the time that the asterisk had a white coloring with a red squiggly line underneath. I solved the bug using diffchecker.com website. When I pasted in the code for the lines with the wildcard selector, I also pasted in the imported google font above it. Only when the google font then showed in full on the screen did I see the missing semi-colon and begin to understand the issue and also to recognise the indicators of the error.  
+I identified the issue after some time as missing the semi-colon in the imported google font which is immediately prior to the asterisk wildcard selector in my css. The missing semi-colon couldn't be immediately seen as the imported google font ran off the page. The omission of the semi-colon's effect was that the asterisk wildcard selector didn't run. I couldn't see at the time that the asterisk had a white coloring with a red squiggly line underneath. I solved the bug using diffchecker.com website. When I pasted in the code for the lines with the wildcard selector, I also pasted in the imported google font above it. Only when the google font then showed in full on the screen did I see the missing semi-colon and begin to understand the issue and also to recognise the indicators of the error.  
 
 Insert screenshots 
-
-
 
 Favicon 
 That little picture or icon that appears on the brower tab. 
@@ -40,8 +19,6 @@ Working favicon on my site: (Light mode)
 Working favicon on my site: (Dark mode)
 
 ![image](https://github.com/stephanielenehan/PP1-Handsome-Hounds/assets/35435182/43eedabc-1faf-4659-b674-822aa3465b3d)
-
-
 
 According to favicon.io "Some alternative names for favicon are browser icon, favorite icon, shortcut icon, tab icon, URL icon, and bookmark icon. The word favicon is short for “favorite icon” and originates from Internet Explorer’s “Favorites” feature which most modern browsers call “bookmarks”."
 
@@ -55,15 +32,9 @@ I have ensured to include the format of ICO along with PNG or SVG for several re
 
 Which favicon and why? 
 - Lots of websites use their product or service logo as its favicon to stay consistent with the company's brand and maintain that association people have with a certain logo as a brand or product identification. 
+- The dog image chosen easily shows the user which possible tab they have open will be the obvious on for Handsome Hounds.
 
-
-
- NOTE TO SELF: Match Favicon to Logo 
- I'm looking for: 
- - Something that shows up and stands out on a web brower tabs no matter what color it is (i.e. light or dark mode for white or black tabs?)
- (note to self - what color does a favicon turn in dark mode? black on black? avoid black or white?) 
-  - Logos selected:
-  insert image (Screenprint of Dog pawprint Icon 89239 (for use in README) from icons-icons)
+ Future Development : Match Favicon to Logo 
 
 WCAG source: (https://www.boia.org/) Bureau of Internet Accessibility. 
 The Web Content Accessibility Guidelines (WCAG) is the international standard for digital accessibility. WCAG contains a number of success criteria that apply to icons.
