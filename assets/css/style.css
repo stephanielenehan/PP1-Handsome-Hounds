@@ -155,11 +155,25 @@ main {
 }
 
 #reason-question {
-    background-color: rgba(251,238,193,.5);
+    display:flex;
+    text-align: center;
+    background-color: #fbeec1;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    /*background-color: rgba(251,238,193,.5);*/
 }
 
 #reasons {
     background-color: #fbeec1;
+    color: #345365;
+    padding: 2rem;
+    display:block;
+}
+
+#reason-list-items>li {
+    padding-bottom: 1.5rem;
 }
 
 /* Footer style rules */
