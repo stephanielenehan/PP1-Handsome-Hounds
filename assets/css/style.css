@@ -137,6 +137,22 @@ main {
     margin-top: 185px;
 }
 /*mobile view up to 320px*/
+
+#opening-times {
+    justify-content: center;
+    padding:2rem;
+}
+
+.text-center {
+    justify-content: center;
+    padding:2rem;
+}
+
+#enquiry {
+    justify-content: center;
+    padding:2rem;
+}
+
 #home-page-top-image {
     height: 180px;
     width: 100%;
