@@ -326,9 +326,12 @@ main {
         border-bottom: 1px solid #345365;
     }
 
-    *#home-page-top-image {
-        height: 620px;
-        width: 100%;
+    #home-page-top-image {
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 500px;
+        width: 60%;
         background: url("../images/2-pugs-two-tone-and-black.webp") no-repeat center center/cover;
     }
 
@@ -388,8 +391,11 @@ main {
     }
 
     #home-page-top-image {
-        height: 640px;
-        width: 100%;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 600px;
+        width: 80%;
         background: url("../images/2-pugs-two-tone-and-black.webp") no-repeat center center/cover;
     }
 
