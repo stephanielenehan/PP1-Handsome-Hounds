@@ -1,14 +1,60 @@
-I have updated the font choices for two reasons: 1. I discovered that the original fonts that I chose are no longer available / supported. 2. In assessing the best fonts to use for accessibility I ensured to select new fonts that meet that criteria. 
+# Handsome Hounds
 
-I have changed the color scheme completely.  Whilst the old color scheme was "pretty", I have approached this version of the project from the perspective of accessibility. In particular with visual impairment in mind. The previous color scheme did not conform to the required contrast ratio. Whilst I changed various elements to different colors during the development process to enable me to understand layout, the two colors in use are  and  to reflect the closest I could get to my chosen color scheme whilst being compliant for accessibility. 
+![image](https://github.com/stephanielenehan/PP1-Handsome-Hounds/assets/35435182/e6eba515-dbcb-4a66-a119-b1170a3a2e63)
 
-BUG: 
-I had a definite issue with the overflow of my header and the content being pushed to the right off the screen (regardless of screen size).
-BUG RESOLUTION:
-I identified the issue after some time as missing the semi-colon in the imported google font which is immediately prior to the asterisk wildcard selector in my css. The missing semi-colon couldn't be immediately seen as the imported google font ran off the page. The omission of the semi-colon's effect was that the asterisk wildcard selector didn't run. I couldn't see at the time that the asterisk had a white coloring with a red squiggly line underneath. I solved the bug using diffchecker.com website. When I pasted in the code for the lines with the wildcard selector, I also pasted in the imported google font above it. Only when the google font then showed in full on the screen did I see the missing semi-colon and begin to understand the issue and also to recognise the indicators of the error.  
+https://stephanielenehan.github.io/PP1-Handsome-Hounds/
 
-Insert screenshots 
+https://github.com/stephanielenehan/PP1-Handsome-Hounds
 
+
+# Author: DEVELOPER_stephanielenehan
+
+# Welcome to Handsome Hounds!
+This is my website for educational purposes, offering fictional dog grooming. 
+
+The site displays a welcome landing page, a gallery of photos of assorted dog breeds either freshly groomed or being groomed, information on reasons to get your dog groomed, opening times and contact information, an enquiry & quote request form, and social media links. 
+
+On completion of the contact form, the user is also guided to an acknowledgement, made to match the theme of the other web pages with full navigation still visable for users onward movement throughout the site. 
+
+
+# Wireframes
+- The original attempt at wireframe below (only on mobile) were quickly obsolete.
+- I found that I shaped the look of the website (mobile first) through the development process itself.
+  
+![image](https://user-images.githubusercontent.com/35435182/181641306-c0a254e0-d948-442f-ac51-10eda194bc54.png)
+
+# Imagery 
+![image](https://github.com/stephanielenehan/PP1-Handsome-Hounds/assets/35435182/2718726e-e84d-4132-8204-b28d1d14797c)
+ - The imagery chosen reflects the variety of sizes and types of dog breeds catered for along with the variery of services offered (washing, cutting, brushing, nails).
+![image](https://github.com/stephanielenehan/PP1-Handsome-Hounds/assets/35435182/4346e98f-71dd-4e57-8f87-ed7b0ef73a40)
+- The imagery chosen shows happy healthy animal exhibiting positive results for both dogs and owners. 
+
+# Styles
+![image](https://user-images.githubusercontent.com/35435182/181653387-e923c718-b24e-42b0-8916-350145088406.png)
+
+ -I have changed the color scheme completely.  Whilst the old color scheme was "pretty", I have approached this version of the project from the perspective of accessibility. In particular   with visual impairment in mind. The previous color scheme did not conform to the required contrast ratio. 
+- Whilst I changed various elements to different colors during the development process to enable me to understand layout, the two colors in use are and  to reflect the closest I could get to my chosen color scheme whilst being compliant for accessibility. 
+ - The color palette chosen reflects a bright positive background with easy to read text. 
+ - The muted earthy tones contrast well against the blue background whilst reflecting the nuetral tones of dog's fur.
+
+# Fonts
+- Original fonts chosen  font-family: Verdana, Geneva, Tahoma, found to be now deleted or unsupported by Google fonts. 
+ - New fonts chosen font-family: Roboto Flex, Roboto Mono.
+Ref recommended on https://morningtrain.dk/en/examples-of-good-fonts/  because:
+They work well digitally, whereas other fonts may be better suited for print.
+The shape of the letters makes them easy to read.
+They are fairly neutral fonts, so they can fit many different use cases across industries.
+All of the above-mentioned fonts belong to the so-called “Sans-serif” family.
+This group of fonts does not have “feet”, making it easier to read on the web where feet can quickly consist of too few pixels and become unclear to the reader.
+ - Dev notes on fonts: Lato, Roboto & Ubuntu proving extremely similar and hard to discern during initial implimentation. This may resolve with further dev by using different font sizes or weight. 
+ I did not rule out the need to reselect another font. 
+I have updated the font choices for two reasons: 
+1. I discovered that the original fonts that I chose are no longer available / supported. 
+2. In assessing the best fonts to use for accessibility I ensured to select new fonts that meet that criteria. 
+
+# Features
+
+## Favicon
 Favicon 
 That little picture or icon that appears on the brower tab. 
 
@@ -36,78 +82,27 @@ Which favicon and why?
 
  Future Development : Match Favicon to Logo 
 
-
- - Original fonts chosen  font-family: Verdana, Geneva, Tahoma, found to be now deleted or unsupported by Google fonts. 
- - New fonts chosen font-family: Roboto Flex, Roboto Mono.
-Ref recommended on https://morningtrain.dk/en/examples-of-good-fonts/
-We mostly use the following fonts:
-Roboto
-Lato
-Ubuntu
-Playfair
-Open Sans
-We mostly use these because:
-They work well digitally, whereas other fonts may be better suited for print.
-The shape of the letters makes them easy to read.
-They are fairly neutral fonts, so they can fit many different use cases across industries.
-All of the above-mentioned fonts belong to the so-called “Sans-serif” family.
-This group of fonts does not have “feet”, making it easier to read on the web where feet can quickly consist of too few pixels and become unclear to the reader.
- - Dev notes on fonts: Lato, Roboto & Ubuntu proving extremely similar and hard to discern during initial implimentation. This may resolve with further dev by using different font sizes or weight. 
- I did not rule out the need to reselect another font. 
-
-# Handsome Hounds
-
-![image](https://user-images.githubusercontent.com/35435182/181649092-9aa616ce-00f7-4837-aada-b11bdcd449cc.png) (consider naming convention of images e.g. landing page etc see notes in pasted template...i.e. ensure a clear file path)
-![image](https://user-images.githubusercontent.com/35435182/181649176-d232a352-23bf-4326-81ab-a07a7b8c4620.png)
-
-https://stephanielenehan.github.io/PP1-Handsome-Hounds/
-
-https://github.com/stephanielenehan/PP1-Handsome-Hounds
-
-
-# Author: DEVELOPER_stephanielenehan
-
-# Welcome to Handsome Hounds!
-This is my website for educational purposes, offering fictional dog grooming. 
-
-The site displays a welcome landing page, a gallery of photos of assorted dog breeds either freshly groomed or being groomed, information on reasons to get your dog groomed, opening times and contact information, an enquiry & quote request form, and social media links. 
-
-On completion of the contact form, the user is also guided to an acknowledgement, made to match the theme of the other web pages with full navigation still visable for users onward movement throughout the site. 
-
-
-# Wireframes
-![image](https://user-images.githubusercontent.com/35435182/181641306-c0a254e0-d948-442f-ac51-10eda194bc54.png)
-
-# Imagery 
-![image](https://user-images.githubusercontent.com/35435182/181652289-d0bb73bf-a092-4ba4-a083-a4f8b728ab37.png)
-![image](https://user-images.githubusercontent.com/35435182/181652566-88d33f38-e281-4a14-aba7-0ab2fb30a43e.png)
- - The imagery chosen reflects the variety of sizes and types of dog breeds catered for along with the variery of services offered (washing, cutting, brushing, nails). 
- - The imagery chosen shows happy healthy animal exhibiting positive results for both dogs and owners. 
-
-# Styles
-![image](https://user-images.githubusercontent.com/35435182/181653387-e923c718-b24e-42b0-8916-350145088406.png)
- - The color palette chosen reflects a bright positive background with easy to read text. 
- - The muted earthy tones contrast well against the blue background whilst reflecting the nuetral tones of dog's fur. 
-
-# Features
-
 ## Header 
-![image](https://user-images.githubusercontent.com/35435182/181688706-af07ee65-0be4-4cba-b97d-52b358b15844.png)
+![image](https://github.com/stephanielenehan/PP1-Handsome-Hounds/assets/35435182/8523bbc6-43f2-46b9-9560-bcc85922986f)
+![image](https://github.com/stephanielenehan/PP1-Handsome-Hounds/assets/35435182/470d3777-598e-4100-b052-a2faf18f1c9b)
+![image](https://github.com/stephanielenehan/PP1-Handsome-Hounds/assets/35435182/682af179-583a-4634-9fb8-d824496f776c)
  - The header contains the display page title for the name of the business Handsome Hounds. 
  - The header contains navigation links as below detailed. 
- - The image used in the header is of a small shih Tzu being groomed. The image is a happy vibrant dog enjoying being groomed to demonstrate the overall aim and ethos of the website and reflects the alternative description of a : small Shih Tzu dog being groomed. 
- - The header contains a tag line under the main image to reinforce the mission of the website to provide grooming services for everything a dog needs: A customs cut from nose to butt. 
+ - The header contains a tag line under or beside the logo text to reinforce the mission of the website to provide grooming services for everything a dog needs: A custom cut from nose to butt. 
 
 ## Navigation
-![image](https://user-images.githubusercontent.com/35435182/181650552-5b2ce4b6-c888-438d-94a3-25f8394bad95.png)
- - Navigation bar consists of tabs for HOME, PHOTOS, REASONS TO GET YOUR DOG GROOMED, OPENING TIMES, MAKE AN ENQUIRY and SOCIAL MEDIA.
- - Dev process: wording of 'PHOTOS' updated to 'GALLERY' as gallery implies more than photos if e.g. videos were added later. 
- - Dec process: wording of 'REASONS TO GET YOUR DOG GROOMED' updated to 'REASONS FOR GROOMING' as wording used was too long winded to say same thing and there would too many words to try and run onto the next line when condensed for mobile. 
- - Each tab on the navigation bar of the index.html page functions with an internal link to bring the user to the relevant place on the page. 
- - Each tab on the navigation bar of the 404.html page functions with an internal link to bring the user back to the landing page and to the relevant section in one click. 
+![image](https://github.com/stephanielenehan/PP1-Handsome-Hounds/assets/35435182/00b187f9-2d57-4bb7-9fc6-c01a1a378e7c)
+![image](https://github.com/stephanielenehan/PP1-Handsome-Hounds/assets/35435182/7271417e-c3c9-48f2-a832-0e138e733582)
+
+
+- Navigation bar consists of tabs for HOME, GALLERY & CONTACT.
+- The Navigation links are contained within a hamburger menu for small screens.
+- The Navigation links are shown side by side within the header for larger screens.
+- Each tab on the navigation bar of the index.html page functions with an internal link to bring the user to the relevant page. 
+- The contact form within the contact page functions with an internal link when the form is submitted to bring the user to an acknowledgement page.
+- The acknowledgement page also contains the same (responsive navigation) to enable the user to continue using the site.  
 
 ## Body
-- The body consists of 4 sections that each represent a user end point for provision of information or further action.
 
 ## Section : Photos  - The photos section is comprised of 6 images : 
 ![image](https://user-images.githubusercontent.com/35435182/181691854-0de6b01d-e25a-4e87-a9dc-c25ed1675064.png)
@@ -134,13 +129,14 @@ On completion of the contact form, the user is also guided to an acknowledgement
   - single dog paw showing freshly cut nails
 
 ## Section : Reasons  - The reason to get your dog groomed section is comprised of 5 statments that validate the reasons one might get their dog groomed
-![image](https://user-images.githubusercontent.com/35435182/181694059-3234c905-eb0b-432f-aafe-ae8b415df16c.png)
+ - Each reason links back to evidence shown in the afore mentioned photos section and is listed on the home page to give the end user the information needed, along with a mini summary. 
+  - ![image](https://github.com/stephanielenehan/PP1-Handsome-Hounds/assets/35435182/9fd470e8-22db-463b-843a-9139db8f7829)
+  - ![image](https://github.com/stephanielenehan/PP1-Handsome-Hounds/assets/35435182/afab4ab1-3d41-4c6d-9601-635638afa1cb)
 
-  - Each reason links back to evidence shown in the afore mentioned photos section and is listed in the section right after the photos to reinforce this. 
-![image](https://user-images.githubusercontent.com/35435182/181694164-303cd671-81e4-4560-bb82-b0c14fcd5df2.png)
+
 
 ## Section : Opening-Times - The opening times section shows the basic information one would need if they chose to contact or attend the dog grooming salon. 
- ![image](https://user-images.githubusercontent.com/35435182/181695439-69a4a992-5c3f-4a1a-9396-1e84337f0a54.png)
+
 
  
  - Opening and closing day along with their corresponding times.
@@ -149,20 +145,23 @@ On completion of the contact form, the user is also guided to an acknowledgement
   - Physical address for the location of the dog grooming salon. 
 
 ## Section : Enquiry  - The enquiry section comprises of a form the user has to complete and submit with either their email address or their phone number in order to receive a quote back. 
-![image](https://user-images.githubusercontent.com/35435182/181697960-e860b910-f1c4-4c97-a57a-442c347c18e2.png)
 
-![image](https://user-images.githubusercontent.com/35435182/181697845-346c676e-6d7a-41f2-8fb0-ba1c0915e4b6.png)
+
+
 
    - The input area for the email address requires the correct format with an @ symbol and an appropriate message appears for the user beside the input area when this criteria is not met so as to indicate to the user to input the email address correctly. 
 
-![image](https://user-images.githubusercontent.com/35435182/181698908-3c60141f-62fc-49cf-a67c-6e00662f3b51.png)
+
 
   - The input area for the phone number requires the correct format with numbers and an appropriate message appears for the user beside the input area when this criteria is not met so as to indicate to the user to input the phone number correctly. 
 
 
 
-## Footer: - The footer contains :
-![image](https://user-images.githubusercontent.com/35435182/181699496-dedad2c1-ce5e-426a-9cff-ea03dd22872c.png) 
+## Footer: - The footer contains:
+![image](https://github.com/stephanielenehan/PP1-Handsome-Hounds/assets/35435182/438f2470-f506-49fa-a136-486f94cc8442)
+![image](https://github.com/stephanielenehan/PP1-Handsome-Hounds/assets/35435182/dc71837a-3915-434a-8a81-eb7a05f9d8ee)
+
+
   - Social media links for Instagram, Facebook and Twitter that follow the template of Coders Coffeehouse.
 ![image](https://user-images.githubusercontent.com/35435182/181717825-51f6278c-9eb5-4ce2-a483-caff2975cda7.png)
 ![image](https://user-images.githubusercontent.com/35435182/181717954-c7f51421-b37f-4308-9cff-54ac5adc5f12.png)
@@ -188,7 +187,13 @@ On completion of the contact form, the user is also guided to an acknowledgement
  
 ## Manual Testing
 write out feature and say how you checked it. 
- - how I tested it in bullet points 
+ - how I tested it in bullet points
+
+BUG: 
+I had a definite issue with the overflow of my header and the content being pushed to the right off the screen (regardless of screen size).
+BUG RESOLUTION:
+I identified the issue after some time as missing the semi-colon in the imported google font which is immediately prior to the asterisk wildcard selector in my css. The missing semi-colon couldn't be immediately seen as the imported google font ran off the page. The omission of the semi-colon's effect was that the asterisk wildcard selector didn't run. I couldn't see at the time that the asterisk had a white coloring with a red squiggly line underneath. I solved the bug using diffchecker.com website. When I pasted in the code for the lines with the wildcard selector, I also pasted in the imported google font above it. Only when the google font then showed in full on the screen did I see the missing semi-colon and begin to understand the issue and also to recognise the indicators of the error.  
+
 
  A typical debugging process might look like the following:
 1.	A bug is identified either by a user or by a developer during testing/development.
@@ -214,8 +219,8 @@ Some questions you should get in the habit of asking yourself are:
  - Social Media links open in a new tab with an aria-label to describe the link and advise that a new tab will open. 
 
 ## Responsiveness
- - Site tested with https://ui.dev/amiresponsive?url=https://stephanielenehan.github.io/love-cinema/
-  ![image](https://user-images.githubusercontent.com/35435182/181722400-2b603cb3-60c4-42f8-9657-4cb21d362845.png)
+ - Site tested with https://amiresponsive.blogspot.com
+  ![image](https://github.com/stephanielenehan/PP1-Handsome-Hounds/assets/35435182/cb6fe329-2a3a-417f-986c-7ef49b4ec006)
  - The site is responsive on mobile, tablet and desktop. 
 
  
@@ -239,8 +244,9 @@ Some questions you should get in the habit of asking yourself are:
 - Welcome to Handsome Hounds Source: Handsome Hounds is the name of a shop in Portarlington, Co. Laois, Ireland
 
 ### styles
-- Responsive Navigation based on Malia Havlicek's codepen: https://codepen.io/maliahavlicek/pen/LYeBwNY
-- Color scheme from : https://visme.co/blog/website-color-schemes/  I have used no.3 Natural and Earthy #8D8741, #659DBD, #DAAD86, #BC986A, #FBEEC1. 
+- Responsive Navigation based on Code Institute Love Running Walkthrough. 
+- Color scheme from : https://visme.co/blog/website-color-schemes/
+- I have used #FBEEC1 and paired it for accessibility with #345365.
 
 
 
