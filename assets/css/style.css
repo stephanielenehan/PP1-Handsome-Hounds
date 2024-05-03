@@ -95,6 +95,10 @@ header p {
     margin-bottom: 0.5em;
 }
 
+.nav-toggle-color {
+    color: #345365;
+}
+
 /*For toggle/dropdown menu the nav bar styles need to be separate from the rest of the header content*/
 /*Navbar styles with collapsable menu*/
 nav {
