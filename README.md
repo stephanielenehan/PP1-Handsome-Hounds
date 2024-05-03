@@ -173,21 +173,56 @@ Which favicon and why?
 # Testing
 ## CSS Validation
 - style.css has been tested with CSS Validation https://jigsaw.w3.org/css-validator/validator and any error or warnings found corrected. 
-![image](https://user-images.githubusercontent.com/35435182/181655143-5b4f4d27-0ccb-4f06-9cc4-1ddcd66b2c05.png)
- - CSS now validates without error. 
+![image](https://github.com/stephanielenehan/PP1-Handsome-Hounds/assets/35435182/e188eb2e-c510-4011-b4f4-c5adb16640c0)
+- CSS now validates without error. 
  
 ## HTML Validation
-![image](https://user-images.githubusercontent.com/35435182/181655619-e73948d6-1d0a-4787-809e-f7e07a50e6db.png)
- - index.html has been tested  with HTML Validation https://validator.w3.org/nu/#textarea and any errors or warnings found corrected. 
-![image](https://user-images.githubusercontent.com/35435182/181656109-9423c33d-8667-4e76-beb0-4139f0bd11ab.png)
- - index.html now validates withour error. 
 
-![image](https://user-images.githubusercontent.com/35435182/181656239-f8408d9b-310f-490a-8f73-6ff5cefa9921.png)
- - 404.html has been tested with HTML Validation https://validator.w3.org/nu/#textarea and validates without error. 
+- index.html has been tested  with HTML Validation https://validator.w3.org and any errors or warnings found corrected.
+  ![image](https://github.com/stephanielenehan/PP1-Handsome-Hounds/assets/35435182/78f095c7-c5b9-4b8a-9948-c3961262e3c9)
+- index.html now validates withour error.
+  ![image](https://github.com/stephanielenehan/PP1-Handsome-Hounds/assets/35435182/7a119a9d-0be4-46cd-b592-c1d23e118887)
+
+
+- gallery.html has been tested  with HTML Validation https://validator.w3.org and any errors or warnings found corrected.
+  ![image](https://github.com/stephanielenehan/PP1-Handsome-Hounds/assets/35435182/863bd470-8510-483f-b30f-d6a861bb5870)
+- gallery.html now validates withour error.
+  ![image](https://github.com/stephanielenehan/PP1-Handsome-Hounds/assets/35435182/ca2f3698-cf94-46e2-8a15-6bf55a4e9315)
+
+
+- contact.html has been tested  with HTML Validation https://validator.w3.org and any errors or warnings found corrected.
+  ![image](https://github.com/stephanielenehan/PP1-Handsome-Hounds/assets/35435182/8acde853-7352-46cf-a655-6c8f5a06d89c)
+ - contact.html now validates withour error.
+   ![image](https://github.com/stephanielenehan/PP1-Handsome-Hounds/assets/35435182/a1484e73-3ad9-48a0-beab-63c1c26a8e23)
+
+
+- thankyou.html has been tested  with HTML Validation https://validator.w3.org and any errors or warnings found corrected. 
+- thankyou.html now validates withour error.
+  ![image](https://github.com/stephanielenehan/PP1-Handsome-Hounds/assets/35435182/00bee671-3f1f-4bc8-bbad-2ad58c3a2102)
+
+
+
+ 
  
 ## Manual Testing
-write out feature and say how you checked it. 
- - how I tested it in bullet points
+Testing
+Using Dev Tools on Chrome.
+
+
+
+
+All	Handhome Hounds logo links back to homepage	
+All	Underline stays under active navigation item	
+All	Navigation links bring the user to relevant page	
+All	Footer social media icons bring the user to relevant sites via a new tab
+All	Images and sections are responsive in different media sizes	
+Index	Hero image zooms in on loading	
+Index	Call to Action button links to menu page
+Menu is scrollable	
+Menu items are clear and legible	
+Nav toggles 
+Contact form required elements are responsive	
+Contact	Form submit button brings you to a validation page
 
 BUG: 
 I had a definite issue with the overflow of my header and the content being pushed to the right off the screen (regardless of screen size).
@@ -223,7 +258,16 @@ Some questions you should get in the habit of asking yourself are:
   ![image](https://github.com/stephanielenehan/PP1-Handsome-Hounds/assets/35435182/cb6fe329-2a3a-417f-986c-7ef49b4ec006)
  - The site is responsive on mobile, tablet and desktop. 
 
- 
+## How to deploy
+- GitHub was used to deploy the website. These were the steps taken to acheive this:
+
+1. Login to GitHub account
+2. Navigate to the project repository, scoops_pp1
+3. Click the Settings button near the top of the page
+4. In the left-hand menu, find and click on the Pages button
+5. In the Source section, choose 'main' from the drop-down, select branch menu
+6. Select 'root' from the drop-down folder menu
+7. Click 'Save' and after a few moments the project will have been made live and a link is visible at the top of the page
 
 
 
@@ -247,6 +291,10 @@ Some questions you should get in the habit of asking yourself are:
 - Responsive Navigation based on Code Institute Love Running Walkthrough. 
 - Color scheme from : https://visme.co/blog/website-color-schemes/
 - I have used #FBEEC1 and paired it for accessibility with #345365.
+
+### deployment
+- I carried out all my own deployment but I credit https://github.com/amylour/scoops_pp1?tab=readme-ov-file#deployment
+- for the description of deployment.
 
 
 
