@@ -157,6 +157,7 @@ main {
 #reason-question {
     display:flex;
     text-align: center;
+    justify-content: center;
     background-color: #fbeec1;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -219,6 +220,28 @@ footer p {
 main {
     background-color: #fbeec1;
     
+}
+
+#reason-question {
+    display:flex;
+    text-align: center;
+    background-color: #fbeec1;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+#reasons {
+    background-color: #fbeec1;
+    color: #345365;
+    padding: 2rem;
+    display:block;
+}
+
+#reason-list-items>li {
+    padding-bottom: 1.5rem;
+    list-style-type: none;
 }
 }
 
@@ -337,15 +360,14 @@ main {
         background-color: #fbeec1;
         padding-left: 1.5rem;
         padding-right: 1.5rem;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        /*background-color: rgba(251,238,193,.5);*/
+        padding-top: 0.9rem;
+        padding-bottom: 0.9rem;
     }
     
     #reasons {
         background-color: #fbeec1;
         color: #345365;
-        padding: 2rem;
+        padding: 1rem;
         display:flex;
         text-align: center;
     }
@@ -354,6 +376,8 @@ main {
         display:flex;
         text-align: center;
         padding-bottom: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 }
 
@@ -375,6 +399,17 @@ main {
         background: url("../images/pomeranian.webp")no-repeat center center/cover;
         font-size: 7rem;
     }
+
+    #reasons {
+        background-color: #fbeec1;
+        color: #345365;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 0.75rem;
+        padding-top: 0.75rem;
+        display:flex;
+        text-align: center;
+    }
 }
 
 /*Media query:laptops & desktops (1440px & above) >=1440px*/
@@ -384,8 +419,11 @@ main {
     }
 
     #home-page-top-image {
-        height: 900px;
-        width: 100%;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 600px;
+        width: 60%;
         background: url("../images/2-pugs-two-tone-and-black.webp") no-repeat center center/cover;
     }
 
@@ -394,6 +432,27 @@ main {
         width: 100%;
         background: url("../images/pomeranian.webp")no-repeat center center/cover;
         font-size: 8.5rem;
+    }
+
+    #reason-question {
+        display:flex;
+        text-align: center;
+        background-color: #fbeec1;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 0.9rem;
+        padding-bottom: 0.9rem;
+    }
+
+    #reasons {
+        background-color: #fbeec1;
+        color: #345365;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 0.75rem;
+        padding-top: 0.75rem;
+        display:flex;
+        text-align: center;
     }
 }
 
@@ -404,8 +463,11 @@ main {
     }
 
     #home-page-top-image {
-        height:1100px;
-        width: 100%;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        height:600px;
+        width: 60%;
         background: url("../images/2-pugs-two-tone-and-black.webp") no-repeat center center/cover;
     }
 
@@ -415,18 +477,43 @@ main {
         background: url("../images/pomeranian.webp")no-repeat center center/cover;
         font-size: 9rem;
     }
+
+    #reasons {
+        background-color: #fbeec1;
+        color: #345365;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        display:flex;
+        text-align: center;
+    }
+
+    #reason-question {
+        display:flex;
+        text-align: center;
+        background-color: #fbeec1;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
 }
 
 /*Media query:laptops & desktops (2560px & above) >=2560px*/
 @media screen and (min-width:2560px){
+
     #menu a:hover{
         border-bottom: 1px solid #345365;
     }
 
     #home-page-top-image {
-        height: 1500px;
-        width: 100%;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 700px;
+        width:50%;
         background: url("../images/2-pugs-two-tone-and-black.webp") no-repeat center center/cover;
+    }
+
+    main {
+        background-color: #fbeec1;
     }
 
     #thank-you {
@@ -434,6 +521,17 @@ main {
         width: 100%;
         background: url("../images/pomeranian.webp")no-repeat center center/cover;
         font-size: 10rem;
+    }
+
+    #reasons {
+        background-color: #fbeec1;
+        color: #345365;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        padding-bottom: 0.75rem;
+        padding-top: 0.75rem;
+        display:flex;
+        text-align: center;
     }
 }
 
