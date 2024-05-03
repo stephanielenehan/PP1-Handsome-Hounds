@@ -162,7 +162,6 @@ main {
     padding-right: 1.5rem;
     padding-top: 1.5rem;
     padding-bottom: 1rem;
-    /*background-color: rgba(251,238,193,.5);*/
 }
 
 #reasons {
@@ -174,6 +173,7 @@ main {
 
 #reason-list-items>li {
     padding-bottom: 1.5rem;
+    list-style-type: none;
 }
 
 /* Footer style rules */
@@ -303,7 +303,7 @@ main {
         border-bottom: 1px solid #345365;
     }
 
-    #home-page-top-image {
+    *#home-page-top-image {
         height: 620px;
         width: 100%;
         background: url("../images/2-pugs-two-tone-and-black.webp") no-repeat center center/cover;
@@ -314,6 +314,46 @@ main {
         width: 100%;
         background: url("../images/pomeranian.webp")no-repeat center center/cover;
         font-size: 6.5rem;
+    }
+
+    #thank-you {
+        border: #fbeec1;
+        border-style: solid;
+        background-color: #fbeec1;
+        height:250px;
+        width: 100%;
+        background: url("../images/pomeranian.webp")no-repeat center center/cover;
+        font-size: 2rem;
+    }
+    
+    main {
+        background-color: #fbeec1;
+        
+    }
+    
+    #reason-question {
+        display:flex;
+        text-align: center;
+        background-color: #fbeec1;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        /*background-color: rgba(251,238,193,.5);*/
+    }
+    
+    #reasons {
+        background-color: #fbeec1;
+        color: #345365;
+        padding: 2rem;
+        display:flex;
+        text-align: center;
+    }
+    
+    .reason-list-items>li {
+        display:flex;
+        text-align: center;
+        padding-bottom: 1rem;
     }
 }
 
