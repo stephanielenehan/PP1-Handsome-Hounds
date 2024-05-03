@@ -60,15 +60,19 @@ This group of fonts does not have “feet”, making it easier to read on the we
 ![image](https://user-images.githubusercontent.com/35435182/181649092-9aa616ce-00f7-4837-aada-b11bdcd449cc.png) (consider naming convention of images e.g. landing page etc see notes in pasted template...i.e. ensure a clear file path)
 ![image](https://user-images.githubusercontent.com/35435182/181649176-d232a352-23bf-4326-81ab-a07a7b8c4620.png)
 
-https://stephanielenehan.github.io/love-cinema/ (update HERE)
+https://stephanielenehan.github.io/PP1-Handsome-Hounds/
 
+https://github.com/stephanielenehan/PP1-Handsome-Hounds
 
-https://github.com/stephanielenehan/love-cinema (update HERE)
 
 # Author: DEVELOPER_stephanielenehan
 
 # Welcome to Handsome Hounds!
-This is my website offering dog grooming which displays a welcome landing page, a gallery of photos of assorted dog breeds either freshly groomed or being groomed, an information panel of reasons to get your dog groomed, opening time and contact information, an enquiry & quote request form, and social media links. A 404 error page is also made to match the main web page and direct users back to the main page.  
+This is my website for educational purposes, offering fictional dog grooming. 
+
+The site displays a welcome landing page, a gallery of photos of assorted dog breeds either freshly groomed or being groomed, information on reasons to get your dog groomed, opening times and contact information, an enquiry & quote request form, and social media links. 
+
+On completion of the contact form, the user is also guided to an acknowledgement, made to match the theme of the other web pages with full navigation still visable for users onward movement throughout the site. 
 
 
 # Wireframes
