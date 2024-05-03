@@ -36,25 +36,7 @@ Which favicon and why?
 
  Future Development : Match Favicon to Logo 
 
-WCAG source: (https://www.boia.org/) Bureau of Internet Accessibility. 
-The Web Content Accessibility Guidelines (WCAG) is the international standard for digital accessibility. WCAG contains a number of success criteria that apply to icons.
-This criterion requires the visual presentation of text and images of text to maintain a contrast ratio of at least 4.5:1. The contrast ratio refers to the difference in luminance (light) between a foreground element and its background. 
 
-Many icons contain text, and users with vision disabilities may not be able to perceive text with a low contrast ratio. Even if an icon does not contain text, it’s a good idea to keep the icon within WCAG’s thresholds — remember, you’re including the icon because you want users to click on it. If the image is invisible to some people, it’s not doing its job.
-
-NOTE TO SELF: Does a favicon support the equivilent of an alt description for screen readers and accessibility? 
-
-NOTE TO SELF: 
-Screenprint of related images on istock (shown on icon-icons.com)
- - Might be of use as related background images? Keep accessibility in mind. 
-
-
-NOTE TO SELF: add section on accessibility testing. There is a link on https://www.boia.org/ to test website.
-Test Favicon
-Test all Icons
-Test all logos
-Test background images
-Test fonts chosen and default back up fonts. 
  - Original fonts chosen  font-family: Verdana, Geneva, Tahoma, found to be now deleted or unsupported by Google fonts. 
  - New fonts chosen font-family: Roboto Flex, Roboto Mono.
 Ref recommended on https://morningtrain.dk/en/examples-of-good-fonts/
@@ -70,37 +52,8 @@ The shape of the letters makes them easy to read.
 They are fairly neutral fonts, so they can fit many different use cases across industries.
 All of the above-mentioned fonts belong to the so-called “Sans-serif” family.
 This group of fonts does not have “feet”, making it easier to read on the web where feet can quickly consist of too few pixels and become unclear to the reader.
- - Dev notes on fonts: Lato, Roboto & Ubuntu proving extremely similar and hard to discern during initial implimentation. This may resolve with further dev by using different font sizes or weight. NOt ruling out will need to reselect another font. 
-
-Test all links internal and external. 
-Test all colour choices and combinations. 
-and show all results and changes made where required and why.
- - Insert before & after pictures of new color scheme and explain why. i.e. accessibility top priority followed by appealing to general audience. Previous color scheme was pretty but not suitable for accessibility. Ref for new color choice based on https://www.perkins.org/resource/choosing-high-contrast-color-schemes-for-low-vision/
-
-
-![Screenshot showing device toolbar Galaxy Fold (mobile first principle in action)](https://github.com/stephanielenehan/PP1-Handsome-Hounds/assets/35435182/5010660f-b841-4775-8ff7-a9d29c9d947a)
-
-![Screenshot dev progress of site on browser](https://github.com/stephanielenehan/PP1-Handsome-Hounds/assets/35435182/9ad6366e-e6fa-4167-abb9-3295f04c90f2)
-
-![Screenshot yellow on blue high contrast 100% accessibility on lighthouse](https://github.com/stephanielenehan/PP1-Handsome-Hounds/assets/35435182/74263fd9-76b1-4019-98ac-54eb669641fc)
-
-![Screenshot giving elements different colors to assist layout dev](https://github.com/stephanielenehan/PP1-Handsome-Hounds/assets/35435182/f40740ac-1b8a-4960-9560-b2528527789f)
-
-![Screenshot header layout progress (only working on larger screens) ](https://github.com/stephanielenehan/PP1-Handsome-Hounds/assets/35435182/47012acb-7e33-43b8-978b-ab40deca96e1)
-
-![Screenshot header layout on smaller screens still being cut off to the right](https://github.com/stephanielenehan/PP1-Handsome-Hounds/assets/35435182/ee58f339-818e-4b46-a0f4-3f3278065d09)
-
-![Screenshot media query tablet 768px   above, header still being cut off to the right](https://github.com/stephanielenehan/PP1-Handsome-Hounds/assets/35435182/9ce8d441-3196-458a-a3a4-48d7b048a305)
-
-
-Reverted background color with acceptable lighthouse accessibility score
-![image](https://github.com/stephanielenehan/PP1-Handsome-Hounds/assets/35435182/d46c84f5-770d-48fd-8608-206457260eae)
-
-
-
-OLD README BELOW
-
-
+ - Dev notes on fonts: Lato, Roboto & Ubuntu proving extremely similar and hard to discern during initial implimentation. This may resolve with further dev by using different font sizes or weight. 
+ I did not rule out the need to reselect another font. 
 
 # Handsome Hounds
 
