@@ -14,7 +14,7 @@ This is my website for educational purposes, offering fictional dog grooming.
 
 The site displays a welcome landing page, a gallery of photos of assorted dog breeds either freshly groomed or being groomed, information on reasons to get your dog groomed, opening times and contact information, an enquiry & quote request form, and social media links. 
 
-On completion of the contact form, the user is also guided to an acknowledgement, made to match the theme of the other web pages with full navigation still visable for users onward movement throughout the site. 
+On completion of the contact form, the user is also guided to an acknowledgement, made to match the theme of the other web pages, with full navigation still visable for users onward movement throughout the site. 
 
 
 # Wireframes
